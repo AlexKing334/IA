@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://xmlns.com/foaf/0.1/" uri="30%20-%20mini-project/Resources%20for%20ontology%20development/foaf.ttl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1696712861566" name="http://www.semanticweb.org/lucad/ontologies/2023/9/animali/" uri="miniprogetto.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1696712861566" name="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47" uri="InBiOn.owl"/>
+    </group>
+</catalog>

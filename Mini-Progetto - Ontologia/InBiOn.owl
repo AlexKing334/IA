@@ -1,0 +1,2393 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#"
+     xml:base="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Vertebrati -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Vertebrati"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Abandoned_jhum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Abandoned_jhum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Degraded_formation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Abicssp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Abicssp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GregariousForestFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#AbioticEntity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#AbioticEntity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MaterialEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Acacia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Acacia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Plantation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#AcaciaCatechu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#AcaciaCatechu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GregariousForestFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#AcaciaSenegal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#AcaciaSenegal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GregariousForestFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Acacia_Senegal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Acacia_Senegal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonSpeciesNames"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Adult -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Adult">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#StageLife"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#AfforestationEcosystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#AfforestationEcosystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ArtificialEcosystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Agriculture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Agriculture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Others"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#AgricultureEcosystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#AgricultureEcosystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ArtificialEcosystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Air -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Air">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#AbioticEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Alnus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Alnus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Plantation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Alpine_Meadows -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Alpine_Meadows">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Biome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Anamalais -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Anamalais">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#WesternGhats"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#AndamanTropicalEvergreen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#AndamanTropicalEvergreen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MixedForestFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Animal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Animal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BioticEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#AnogeissusPendula -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#AnogeissusPendula">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GregariousForestFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Arecanut -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Arecanut">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Orchards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ArtificialEcosystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ArtificialEcosystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Ecosystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Avicennia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Avicennia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Locale-SpecificFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Bamboosp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Bamboosp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GregariousForestFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BarrenLands -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BarrenLands">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CultivatedandManagedSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Bichir -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Bichir">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonSpeciesNames"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BiogeographicZone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BiogeographicZone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ArtificialEcosystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Biome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Biome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MacroEcosystem"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TypeBiome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BioticEntity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BioticEntity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MaterialEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BlackVarnishTree -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BlackVarnishTree">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonLocalNames"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BlindShark -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BlindShark">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonSpeciesNames"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Boswelliasp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Boswelliasp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GregariousForestFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Bowfin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Bowfin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonSpeciesNames"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BrakishWater -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BrakishWater">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TypeWater"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BullheadShark -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BullheadShark">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonSpeciesNames"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CarpetShark -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CarpetShark">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonSpeciesNames"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Casuriana -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Casuriana">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Plantation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Cedrussp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Cedrussp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GregariousForestFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Cenchrus-Dactyloctenium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Cenchrus-Dactyloctenium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Grasslands"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ClassifiedObject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ClassifiedObject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ObjectUnderStudy"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CollectedObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Clay -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Clay">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TypeSoil"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CleanWater -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CleanWater">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SweetWater"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Cleistanthussp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Cleistanthussp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GregariousForestFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ClimaticCondition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ClimaticCondition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ClimaticRegion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ClimaticRegion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GeographicalSpace"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Cloudy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Cloudy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ClimaticCondition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Coasts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Coasts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BiogeographicZone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Coconut -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Coconut">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Orchards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Coelacanth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Coelacanth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonSpeciesNames"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Cold -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Cold">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ClimaticCondition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Cold_deserts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Cold_deserts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Others"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CollectAssistent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CollectAssistent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CollectParticipant"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ResearcherParticipant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CollectParticipant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CollectParticipant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Person"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Researcher"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CollectResponsible -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CollectResponsible">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ResearcherParticipant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CollectedObject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CollectedObject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ObjectUnderStudy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonLocalNames -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonLocalNames">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SpeciesNames"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonSpeciesNames -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonSpeciesNames">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SpeciesNames"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Composite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Composite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ClimaticCondition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Comunity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Comunity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TypeLocality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Coniferous_Forest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Coniferous_Forest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Biome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ConservationUnit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ConservationUnit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TypeLocality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Costal_swampy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Costal_swampy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Grasslands"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Country">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#PoliticSocialRegion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Cryptomeria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Cryptomeria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Orchards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CultivatedandManagedSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CultivatedandManagedSystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ForestEcosystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Current_jhum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Current_jhum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Degraded_formation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#DarkWater -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#DarkWater">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SweetWater"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Deccan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Deccan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BiogeographicZone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Deep_seaDeserts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Deep_seaDeserts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#DesertEcosystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#DefinedTerm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#DefinedTerm"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Degraded_forest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Degraded_forest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Degraded_formation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Degraded_formation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Degraded_formation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Forests"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Deipterocarpussp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Deipterocarpussp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GregariousForestFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#DenseScrub -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#DenseScrub">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Scrub/Shrub_Land"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Desert -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Desert">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BiogeographicZone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#DesertEcosystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#DesertEcosystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TerrestrialEcosystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Desert_duneScrub -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Desert_duneScrub">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Scrub/Shrub_Land"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Dry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Dry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Grasslands"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Dry_alpineScrub -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Dry_alpineScrub">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Scrub/Shrub_Land"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Dry_alpine_pasture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Dry_alpine_pasture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Grasslands"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Dry_deciduousScrub -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Dry_deciduousScrub">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Scrub/Shrub_Land"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Dry_evergreenScrub -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Dry_evergreenScrub">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Scrub/Shrub_Land"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#EasternHimalayas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#EasternHimalayas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BiogeographicZone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Ecosystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Ecosystem"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Ecucalyptus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Ecucalyptus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Plantation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Egg -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Egg">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#StageLife"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ElephantShark -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ElephantShark">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonSpeciesNames"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Embryo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Embryo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#StageLife"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Equatorial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Equatorial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ClimaticRegion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#EuphorbiaScrub -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#EuphorbiaScrub">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Scrub/Shrub_Land"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Fauna -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Fauna">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MaterialEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Flora -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Flora">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MaterialEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ForestEcosystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ForestEcosystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TerrestrialEcosystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Forest_Plantation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Forest_Plantation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Plantation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Forests -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Forests">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#NaturalandSemi-NaturalSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Fresh_Water_Swamp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Fresh_Water_Swamp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Locale-SpecificFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#FrilledShark -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#FrilledShark">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonSpeciesNames"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GangeticPlains -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GangeticPlains">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BiogeographicZone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GardenEcosystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GardenEcosystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ArtificialEcosystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Gars -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Gars">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonSpeciesNames"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GeographicPoint -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GeographicPoint">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SpatialLocation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GeographicalSpace"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GeographicalSpace -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GeographicalSpace">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SpatialLocation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Gliricidia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Gliricidia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Plantation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GoblinShark -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GoblinShark">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonSpeciesNames"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Grassland_formation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Grassland_formation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Grasslands"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Grasslands -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Grasslands">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#NaturalandSemi-NaturalSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GregariousForestFormation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GregariousForestFormation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Forests"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GulperShark -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GulperShark">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonSpeciesNames"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#HagFish -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#HagFish">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonSpeciesNames"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Hardwickiasp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Hardwickiasp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GregariousForestFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#HimalayanMoistTemperate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#HimalayanMoistTemperate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MixedForestFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Holigarna -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Holigarna">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonSpeciesNames"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Humid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Humid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ClimaticRegion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Humus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Humus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TypeSoil"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Hydromorphic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Hydromorphic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TypeSoil"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#IceDeserts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#IceDeserts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#DesertEcosystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Indeterminated -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Indeterminated">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#StageLife"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#IndonesianCoelacanth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#IndonesianCoelacanth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonSpeciesNames"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Islands -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Islands">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BiogeographicZone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Juniperussp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Juniperussp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GregariousForestFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Kans -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Kans">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Locale-SpecificFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Kher -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Kher">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonLocalNames"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Lantana_dominantScrub -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Lantana_dominantScrub">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Scrub/Shrub_Land"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Larva -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Larva">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#StageLife"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Lasiurus-Panicum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Lasiurus-Panicum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Grasslands"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Litolitic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Litolitic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TypeSoil"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Littoral_Forest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Littoral_Forest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Locale-SpecificFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#LocalCollect -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#LocalCollect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GeographicalSpace"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Locale-SpecificFormation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Locale-SpecificFormation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Forests"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Location">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SpatialLocation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#LongtailCarpetShark -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#LongtailCarpetShark">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonSpeciesNames"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Lowland_Swamp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Lowland_Swamp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Locale-SpecificFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Lumnitzera -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Lumnitzera">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Locale-SpecificFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MacroEcosystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MacroEcosystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Ecosystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Mangrove_Forest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Mangrove_Forest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Locale-SpecificFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Mangrove_Scrub -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Mangrove_Scrub">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Locale-SpecificFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MaterialEntity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MaterialEntity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MicroOrganism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MicroOrganism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BioticEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Microbiota -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Microbiota">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MaterialEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MixedForestFormation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MixedForestFormation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Forests"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Mixed_Plantation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Mixed_Plantation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Plantation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Moderate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Moderate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ClimaticCondition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Moist_alpineScrub -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Moist_alpineScrub">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Scrub/Shrub_Land"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Moist_alpine_pasture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Moist_alpine_pasture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Grasslands"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MontaneWetTemperate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MontaneWetTemperate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MixedForestFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MountainEcosystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MountainEcosystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TerrestrialEcosystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Mudskipper -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Mudskipper">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonSpeciesNames"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#NaturalandSemi-NaturalSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#NaturalandSemi-NaturalSystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ForestEcosystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Nilgiris -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Nilgiris">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#WesternGhats"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#NorthEast -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#NorthEast">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BiogeographicZone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ObjectUnderStudy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ObjectUnderStudy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BioticEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#OleaDioica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#OleaDioica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonSpeciesNames"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#OpenScrub -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#OpenScrub">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Scrub/Shrub_Land"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Orchard_formation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Orchard_formation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Orchards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Orchards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Orchards">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CultivatedandManagedSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Others -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Others">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ForestEcosystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Padauk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Padauk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Orchards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Paddlefish -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Paddlefish">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonSpeciesNames"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Palnis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Palnis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#WesternGhats"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Person">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Vertebrati"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Phoenix -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Phoenix">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Locale-SpecificFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#PhotophysiognomicRegion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#PhotophysiognomicRegion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GeographicalSpace"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Pinussp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Pinussp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GregariousForestFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Plant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Plant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BioticEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Plantation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Plantation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Forests"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#PoliticSocialRegion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#PoliticSocialRegion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GeographicalSpace"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Prosopis_JulifloraScrub -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Prosopis_JulifloraScrub">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Scrub/Shrub_Land"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Prosopis_dinerariaScrub -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Prosopis_dinerariaScrub">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Scrub/Shrub_Land"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Pupa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Pupa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#StageLife"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#QueenslandLungfish -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#QueenslandLungfish">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonSpeciesNames"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Quercussp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Quercussp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GregariousForestFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Rainy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Rainy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ClimaticCondition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Ravine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Ravine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Locale-SpecificFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#RedSanders -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#RedSanders">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GregariousForestFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Researcher -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Researcher">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ResearcherParticipant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ResearcherParticipant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CollectParticipant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Rhizophora -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Rhizophora">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Locale-SpecificFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Rhododendronsp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Rhododendronsp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GregariousForestFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#River_bed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#River_bed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Others"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Rocky -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Rocky">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TypeSoil"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Rose_Sandalwood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Rose_Sandalwood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonLocalNames"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Sacred_groves -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Sacred_groves">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Locale-SpecificFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Saffron -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Saffron">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Orchards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SalineWater -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SalineWater">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TypeWater"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Sample -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Sample">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#DefinedTerm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SandDeserts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SandDeserts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#DesertEcosystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Sandy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Sandy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TypeSoil"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SecondaryTropicalEvergreen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SecondaryTropicalEvergreen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MixedForestFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Sehima-Dichathium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Sehima-Dichathium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Grasslands"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SemiHumid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SemiHumid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ClimaticRegion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Settlement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Settlement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Others"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Sex -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Sex">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BioticEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Shifting_cultivation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Shifting_cultivation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Degraded_formation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Sholas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Sholas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Locale-SpecificFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Shoreasp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Shoreasp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GregariousForestFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ShortMackerel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ShortMackerel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonSpeciesNames"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Shrub_Savannah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Shrub_Savannah">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Woodland"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SocialPolicyRegionType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SocialPolicyRegionType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GeographicalSpace"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Soil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Soil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#AbioticEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SouthernHilltopTropicalEvergreen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SouthernHilltopTropicalEvergreen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MixedForestFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SpatialLocation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SpatialLocation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#DefinedTerm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SpeciesNames -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SpeciesNames"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SpeciesScientificNames -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SpeciesScientificNames">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SpeciesNames"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#StageLife -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#StageLife">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BioticEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Sturgeons -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Sturgeons">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonSpeciesNames"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SubAlpine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SubAlpine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MixedForestFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SubTropicalBroadleavedEvergreen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SubTropicalBroadleavedEvergreen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MixedForestFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SubTropicalDryEvergreen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SubTropicalDryEvergreen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MixedForestFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SubTropicalPineMixed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SubTropicalPineMixed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MixedForestFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Sunny -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Sunny">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ClimaticCondition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Swamp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Swamp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Locale-SpecificFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Swampy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Swampy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Grasslands"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SweetWater -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SweetWater">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TypeWater"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Syzigium_Swamp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Syzigium_Swamp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Locale-SpecificFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Tea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Tea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Orchards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Tectonasp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Tectonasp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GregariousForestFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Temperate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Temperate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ClimaticRegion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TemperateConiferous -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TemperateConiferous">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MixedForestFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TerrestrialEcosystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TerrestrialEcosystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Ecosystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ThornScrub -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ThornScrub">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Scrub/Shrub_Land"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Tirunelveli_Hills -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Tirunelveli_Hills">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#WesternGhats"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TransHimalayas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TransHimalayas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#WesternGhats"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Tree_Savannah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Tree_Savannah">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Woodland"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Tropical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Tropical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ClimaticRegion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TropicalEvergreen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TropicalEvergreen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MixedForestFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TropicalMoistDeciduous -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TropicalMoistDeciduous">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MixedForestFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TropicalSalMixedMoistDeciduous -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TropicalSalMixedMoistDeciduous">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MixedForestFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TropicalSemiEvergreen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TropicalSemiEvergreen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MixedForestFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TropicalTeakMixedDryDeciduous -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TropicalTeakMixedDryDeciduous">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MixedForestFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TropicalThorn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TropicalThorn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MixedForestFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Tropical_Dry_Decidious_Forest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Tropical_Dry_Decidious_Forest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Biome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Tropical_Humid_Forest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Tropical_Humid_Forest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Biome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Tropical_Seasonal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Tropical_Seasonal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Locale-SpecificFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TypeBiome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TypeBiome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MacroEcosystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TypeLocality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TypeLocality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#PoliticSocialRegion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TypeSoil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TypeSoil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#AbioticEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TypeWater -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TypeWater">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#AbioticEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Village -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Village">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TypeLocality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Warm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Warm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ClimaticCondition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Water -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Water">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#AbioticEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Waterbodies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Waterbodies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CultivatedandManagedSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#WesternGhats -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#WesternGhats">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BiogeographicZone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#WesternHimalayas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#WesternHimalayas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BiogeographicZone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Wet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Wet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Grasslands"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Wet_lands -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Wet_lands">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Others"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#WhiteWater -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#WhiteWater">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SweetWater"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Woodland -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Woodland">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Forests"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Woodland_Formation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Woodland_Formation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Woodland"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Xylocarpus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Xylocarpus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Locale-SpecificFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Young -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Young">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#StageLife"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Ziziphus_dominantScrub -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Ziziphus_dominantScrub">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Scrub/Shrub_Land"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#classification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#classification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BioticEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#state -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#state">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#PoliticSocialRegion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Scrub/Shrub_Land -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Scrub/Shrub_Land">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#NaturalandSemi-NaturalSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#WarmDesert&amp;SemiDesert -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#WarmDesert&amp;SemiDesert">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Biome"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Abandoned_jhum"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Current_jhum"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Degraded_forest"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Shifting_cultivation"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Abicssp"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#AcaciaCatechu"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#AcaciaSenegal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#AnogeissusPendula"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Bamboosp"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Boswelliasp"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Cedrussp"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Cleistanthussp"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Deipterocarpussp"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Hardwickiasp"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Juniperussp"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Pinussp"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Quercussp"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#RedSanders"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Rhododendronsp"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Shoreasp"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Tectonasp"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Acacia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Alnus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Casuriana"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Ecucalyptus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Forest_Plantation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Gliricidia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Mixed_Plantation"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Adult"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Egg"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Embryo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Indeterminated"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Larva"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Pupa"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Young"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#AfforestationEcosystem"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#AgricultureEcosystem"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GardenEcosystem"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Agriculture"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Cold_deserts"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#River_bed"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Settlement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Wet_lands"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Air"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Soil"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TypeSoil"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TypeWater"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Water"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Alpine_Meadows"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Coniferous_Forest"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Tropical_Dry_Decidious_Forest"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Tropical_Humid_Forest"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#WarmDesert&amp;SemiDesert"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Anamalais"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Nilgiris"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Palnis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Tirunelveli_Hills"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#AndamanTropicalEvergreen"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#HimalayanMoistTemperate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MontaneWetTemperate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SecondaryTropicalEvergreen"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SouthernHilltopTropicalEvergreen"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SubAlpine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SubTropicalBroadleavedEvergreen"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SubTropicalDryEvergreen"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SubTropicalPineMixed"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TemperateConiferous"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TropicalEvergreen"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TropicalMoistDeciduous"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TropicalSalMixedMoistDeciduous"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TropicalSemiEvergreen"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TropicalTeakMixedDryDeciduous"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TropicalThorn"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Animal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MicroOrganism"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ObjectUnderStudy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Plant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Sex"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#StageLife"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#classification"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Arecanut"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Coconut"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Cryptomeria"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Orchard_formation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Padauk"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Saffron"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Tea"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BarrenLands"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Orchards"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Waterbodies"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Bichir"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BlindShark"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Bowfin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BullheadShark"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CarpetShark"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Coelacanth"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ElephantShark"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#FrilledShark"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Gars"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GoblinShark"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GulperShark"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#HagFish"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Holigarna"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#IndonesianCoelacanth"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#LongtailCarpetShark"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Mudskipper"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#OleaDioica"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Paddlefish"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#QueenslandLungfish"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ShortMackerel"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Sturgeons"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BrakishWater"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SalineWater"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SweetWater"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Clay"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Humus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Hydromorphic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Litolitic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Rocky"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Sandy"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CleanWater"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#DarkWater"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#WhiteWater"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ClimaticCondition"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#DefinedTerm"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Ecosystem"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ClimaticRegion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#LocalCollect"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#PhotophysiognomicRegion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#PoliticSocialRegion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SocialPolicyRegionType"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Cloudy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Cold"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Composite"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Moderate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Rainy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Sunny"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Warm"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonLocalNames"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonSpeciesNames"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SpeciesScientificNames"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Comunity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ConservationUnit"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Village"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Country"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#TypeLocality"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#state"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CultivatedandManagedSystem"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#NaturalandSemi-NaturalSystem"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Others"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Deep_seaDeserts"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#IceDeserts"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SandDeserts"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Degraded_formation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#GregariousForestFormation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Locale-SpecificFormation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MixedForestFormation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Plantation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Woodland"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#DenseScrub"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Desert_duneScrub"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Dry_alpineScrub"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Dry_deciduousScrub"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Dry_evergreenScrub"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#EuphorbiaScrub"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Lantana_dominantScrub"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Moist_alpineScrub"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#OpenScrub"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Prosopis_JulifloraScrub"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Prosopis_dinerariaScrub"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ThornScrub"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Ziziphus_dominantScrub"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#DesertEcosystem"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#ForestEcosystem"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#MountainEcosystem"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Forests"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Grasslands"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Scrub/Shrub_Land"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Shrub_Savannah"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Tree_Savannah"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Woodland_Formation"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

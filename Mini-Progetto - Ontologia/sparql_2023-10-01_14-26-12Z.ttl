@@ -1,0 +1,474 @@
+@prefix dbo:	<http://dbpedia.org/ontology/> .
+@prefix dbr:	<http://dbpedia.org/resource/> .
+dbr:Bernadette_Peters	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Pound_Puppies_(2010_TV_series)>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Faces_of_Death	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Pitbullterje	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Stephen_Duneier	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Ronen_Rubinstein	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/KHTS_(AM)>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:List_of_The_39_Clues_characters	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Robert_William_Fisher	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/2009_shooting_of_Pittsburgh_police_officers>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Public_image_of_Sarah_Palin	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Maricopa_County_Sheriff\u0027s_Office_controversies>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Pawprints_of_Katrina	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Our_Own_Oddities	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Mark_Buehrle	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Edgar_Davids	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Rachael_Ray	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Ed_Faron	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Broadway_Barks	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Pitbull	dbo:wikiPageWikiLink	dbr:Pit_bull ;
+	dbo:wikiPageRedirects	dbr:Pit_bull .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix wikipedia-en:	<http://en.wikipedia.org/wiki/> .
+wikipedia-en:Pit_bull	foaf:primaryTopic	dbr:Pit_bull .
+dbr:Dalton_McGuinty	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Rainn_Wilson	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Cesar_Millan	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/List_of_Bucky_O\u0027Hare_characters>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Kala_Alexander	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:List_of_unarmed_African_Americans_killed_by_law_enforcement_officers_in_the_United_States	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Pit_Bulls_&_Parolees>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Paulo_Filho	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Peter_Vallone_Jr.>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix yago:	<http://dbpedia.org/class/yago/> .
+dbr:Pit_bull	rdf:type	yago:Group100031264 ,
+		yago:WikicatDogBreedsOriginatingInEngland ,
+		yago:Breed108101410 ,
+		yago:TaxonomicGroup107992450 ,
+		yago:AnimalGroup107993929 ,
+		yago:Variety108101085 ,
+		yago:WikicatDogBreeds .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+dbr:Pit_bull	rdf:type	owl:Thing ,
+		yago:WikicatDogBreedsOriginatingInTheUnitedStates ,
+		yago:WikicatCatchDogBreeds ,
+		yago:Abstraction100002137 ,
+		yago:BiologicalGroup107941170 .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+dbr:Pit_bull	rdfs:label	"Pit bull"@en ,
+		"Pitbull (hond)"@nl ,
+		"\u6BD4\u7279\u72AC"@zh ,
+		"Pit bull"@es ,
+		"\uD54F\uBD88 \uD14C\uB9AC\uC5B4"@ko ,
+		"Pit bull"@in ,
+		"Pit bull"@pt ,
+		"Pit bull"@eu ,
+		"\u0628\u064A\u062A\u0628\u0648\u0644"@ar ,
+		"\u03A0\u03B9\u03C4 \u039C\u03C0\u03BF\u03C5\u03BB"@el ;
+	rdfs:comment	"Pit bull adalah nama umum untuk jenis anjing yang diturunkan dari bulldog dan terrier . Jenis pit bull sangat ambigu karena mencakup berbagai keturunan, jenis informal dan penampilan yang tidak dapat diidentifikasi secara andal. Keturunan formal yang sering dianggap sebagai tipe pit bull termasuk American Pit Bull Terrier, American Staffordshire Terrier, American Bully, dan Staffordshire Bull Terrier . American Bulldog juga terkadang disertakan. Anjing ras campuran yang secara fisik menyerupai ras ini sering diberi label \"pit bulls\" oleh tempat penampungan. Banyak dari breed-breed ini pada awalnya dikembangkan sebagai anjing-anjing yang bertarung dari anjing-anjing pengumpan banteng silang (yang digunakan untuk memegang wajah dan kepala hewan-hewan besar seperti sapi jantan) dan terrier . "@in ,
+		"Pitbull is een informele benaming van veel hondenrassen in de Verenigde Staten, maar slechts \u00E9\u00E9n hondenras heeft \"Pitbull\" als onderdeel van zijn formele naam, de Amerikaanse pitbullterri\u00EBr.De definitie van \"Pitbull\" als een groep van hondenrassen of slechts \u00E9\u00E9n hondenras maakt het moeilijk om correcte gegevens te verzamelen voor bijvoorbeeld statistieken over hondenaanvallen. Sommige professionele hondenkwekers en experts beweren echter dat de Amerikaanse pitbullterri\u00EBr het enige hondenras is dat Pitbull genoemd kan worden."@nl ,
+		"\u6BD4\u7279\u9B25\u725B\u3E74\uFF08\u82F1\u8A9E\uFF1APit Bull\uFF09\uFF0C\u53C8\u7A31\u300C\u60E1\u9738\u72D7\u300D\uFF0C\u6CDB\u6307\u5305\u542B\u5176\u4ED6\u985E\u4F3C\u54C1\u7A2E\uFF0C\u70BA\u6578\u7A2E\u9B25\u725B\u985E\u72AC\u4E4B\u7E3D\u7A31\u3002\u72F9\u7FA9\u7279\u6307\u7F8E\u570B\u6BD4\u7279\u9B25\u725B\u3E74\uFF08American Pit Bull Terrier\uFF09\u3002\u4E3B\u8981\u54C1\u7A2E\u5305\u542B\u6BD4\u7279\u9B25\u725B\u3E74\u3001\u3001\u7F8E\u570B\u9B25\u725B\u72AC\u3001\u65AF\u5854\u798F\u90E1\u9B25\u725B\u6897\u3002"@zh ,
+		"Pit bull txakur arraza zenbaiti aplikatzen zaien izen generikoa da. Besteak beste, American pit bull terrier, American Staffordshire terrier, Staffordshire bull terrier, American Bulldog izeneko txakur arrazak biltzen ditu, herrialde batetik bestera pit bull terminoak barnehartzen dituen ezaugarriak aldatzen badira ere. Txakur multzo hau ezaguna da bere erasokortasunagatik eta ugari dira beraien erasoez hildako pertsonak; hori dela eta, herrialde zenbaitetan txakur hauei buruzko araudi zorrotzak ezarri dira."@eu ,
+		"\u0627\u0644\u0628\u064A\u062A\u0628\u0648\u0644 \u0623\u0648 \u0628\u064A\u062F\u0628\u0648\u0644 (\u0628\u0627\u0644\u0625\u0646\u062C\u0644\u064A\u0632\u064A\u0629: Pit Bull)\u200F \u0647\u062C\u0646 \u0643\u0644\u0628 \u0627\u0644\u0628\u064A\u062A\u0628\u0648\u0644 \u0645\u0646 \u0639\u062F\u0651\u0629 \u0623\u0646\u0648\u0627\u0639 \u0645\u0646 \u0627\u0644\u0643\u0644\u0627\u0628 \u0644\u0644\u062D\u0635\u0648\u0644 \u0639\u0644\u0649 \u0643\u0644\u0628 \u0628\u0645\u0645\u064A\u0632\u0627\u062A \u0639\u0627\u0644\u064A\u0629 \u0645\u0646 \u062D\u064A\u062B \u0627\u0644\u0642\u0648\u0629 \u0627\u0644\u0647\u062C\u0648\u0645\u064A\u0629 \u0648\u0627\u0644\u0634\u0631\u0627\u0633\u0629\u060C \u0645\u0645\u0627 \u062C\u0639\u0644\u0647 \u064A\u0635\u0646\u0641 \u0643\u0623\u0643\u062B\u0631 \u0627\u0644\u0643\u0644\u0627\u0628 \u0634\u0631\u0627\u0633\u0629 \u0648\u0639\u062F\u0648\u0627\u0646\u064A\u0629 \u0648\u0627\u0644\u0623\u0642\u0648\u0649 \u0628\u064A\u0646\u0647\u0627. \u062A\u062E\u0627\u0641\u0647 \u0645\u0639\u0638\u0645 \u0627\u0644\u0643\u0644\u0627\u0628 \u0644\u0634\u0631\u0627\u0633\u062A\u0647\u060C \u0625\u0644\u0627 \u0623\u0646\u0651\u0647 \u064A\u0639\u0631\u0641 \u0628\u0637\u0628\u0639\u0647 \u0627\u0644\u0648\u062F\u0648\u062F \u0648\u0627\u0644\u0648\u0641\u064A \u062A\u062C\u0627\u0647 \u0645\u0631\u0628\u064A\u0647\u060C \u0625\u0644\u0627 \u0641\u064A \u0627\u0644\u062D\u0627\u0644\u0627\u062A \u0627\u0644\u062A\u064A \u064A\u062A\u0639\u0631\u0636 \u0641\u064A\u0647\u0627 \u0644\u0633\u0648\u0621 \u0627\u0644\u0645\u0639\u0627\u0645\u0644\u0629 \u0648\u0627\u0644\u0636\u0631\u0628 \u0641\u064A\u0645\u0643\u0646 \u0623\u0646 \u064A\u062A\u0633\u0628\u0651\u0628 \u0628\u0627\u0644\u0623\u0630\u0649 \u0644\u0645\u0631\u0628\u064A\u0647 \u0646\u062A\u064A\u062C\u0629 \u0630\u0644\u0643. \u0628\u0627\u0644\u0631\u063A\u0645 \u0645\u0646 \u0623\u0646\u0651 \u0627\u0644\u0647\u062F\u0641 \u0645\u0646 \u062A\u0647\u062C\u064A\u0646 \u0643\u0644\u0627\u0628 \u0627\u0644\u0628\u064A\u062A\u0628\u0648\u0644 \u0627\u0644\u0627\u0633\u062A\u0639\u0627\u0646\u0629 \u0628\u0647\u0627 \u0641\u064A \u0635\u064A\u062F \u0627\u0644\u0645\u0648\u0627\u0634\u064A \u0627\u0644\u0636\u062E\u0645\u0629\u060C \u0625\u0644\u0627 \u0623\u0646\u0651 \u0642\u0648\u062A\u0647 \u0648\u0634\u0631\u0627\u0633\u062A\u0647 \u062C\u0639\u0644\u062A \u0627\u0644\u0643\u062B\u064A\u0631 \u0645\u0646 \u0645\u0631\u0628\u064A\u0647 \u064A\u0644\u062C\u0624\u0648\u0646 \u0625\u0644\u0649 \u0627\u0633\u062A\u062E\u062F\u0627\u0645\u0647 \u0641\u064A \u0627\u0644\u0645\u0628\u0627\u0631\u064A\u0627\u062A \u0648\u0627\u0644\u0646\u0632\u0627\u0644\u0627\u062A \u0627\u0644\u0634\u0631\u0633\u0629 \u0627\u0644\u062A\u064A \u062A\u0642\u0627\u0645 \u0628\u064A\u0646 \u0627\u0644\u0643\u0644\u0627\u0628\u060C \u062D\u064A\u062B \u064A\u0645\u062A\u0627\u0632 \u0639\u0646 \u063A\u064A\u0631\u0647 \u0645\u0646 \u0627\u0644\u0643\u0644\u0627\u0628 \u0627\u0644\u0645\u0634\u0627\u0631\u0643\u0629 \u0641\u064A \u0647\u0630\u0647 \u0627\u0644\u0646\u0632\u0627\u0644\u0627\u062A \u0628\u0642\u062F\u0631\u062A\u0647 \u0639\u0644\u0649 \u0627\u0644\u0642\u062A\u0627\u0644 \u0644\u0648\u0642\u062A \u0637\u0648\u064A\u0644 \u062F\u0648\u0646 \u0627\u0644\u0627\u0633\u062A\u0633\u0644\u0627\u0645\u060C \u062D\u062A\u0649 \u0644\u0648 \u0623\u062F\u0649 \u0630\u0644\u0643 \u0625\u0644\u0649 \u0645\u0648\u062A\u0647 \u0644\u0634\u062F\u0629 \u0637\u0628\u0639\u0647 \u0627\u0644\u0639\u0646\u064A\u062F \u0648\u0639\u0627\u062F\u0629 \u064A\u062A\u0645 \u0642\u0637\u0639 \u0623\u0630\u0646\u064A\u0647 \u0644\u0643\u064A \u0644\u0627 \u064A\u062A\u0623\u0644\u0645 \u0639\u0646\u062F \u0627\u0644\u0642\u062A\u0627\u0644."@ar ,
+		"\u03A0\u03B9\u03C4 \u039C\u03C0\u03BF\u03C5\u03BB(\u03A4\u03B1\u03C3\u03B1\u03C1\u03B1\u03C2 \u03AE \u03B1\u03BB\u03BB\u03B9\u03CE\u03C2 \u039F\u03B9\u03BA\u03BF\u03BD\u03BF\u03BC\u03B9\u03BA\u03AE \u03B4\u03CD\u03BD\u03B1\u03BC\u03B7) \u03B5\u03AF\u03BD\u03B1\u03B9 \u03B7 \u03BA\u03BF\u03B9\u03BD\u03AE \u03BF\u03BD\u03BF\u03BC\u03B1\u03C3\u03AF\u03B1 \u03B3\u03B9\u03B1 \u03AD\u03BD\u03B1\u03BD \u03C3\u03C5\u03B3\u03BA\u03B5\u03BA\u03C1\u03B9\u03BC\u03AD\u03BD\u03BF \u03C4\u03CD\u03C0\u03BF \u03C3\u03BA\u03CD\u03BB\u03C9\u03BD. \u03A4\u03C5\u03C0\u03B9\u03BA\u03AD\u03C2 \u03C6\u03C5\u03BB\u03AD\u03C2 \u03C3\u03C4\u03B7 \u0392\u03CC\u03C1\u03B5\u03B9\u03B1 \u0391\u03BC\u03B5\u03C1\u03B9\u03BA\u03AE \u03C3\u03C5\u03C7\u03BD\u03AC \u03B8\u03B5\u03C9\u03C1\u03BF\u03CD\u03BD\u03C4\u03B1\u03B9 \u03C4\u03CD\u03C0\u03BF\u03C5 Pit Bull, \u03C3\u03C5\u03BC\u03C0\u03B5\u03C1\u03B9\u03BB\u03B1\u03BC\u03B2\u03B1\u03BD\u03BF\u03BC\u03AD\u03BD\u03BF\u03C5 \u03C4\u03BF\u03C5 \u0391\u03BC\u03B5\u03C1\u03B9\u03BA\u03B1\u03BD\u03B9\u03BA\u03BF\u03CD \u03A0\u03B9\u03C4 \u039C\u03C0\u03BF\u03C5\u03BB \u03A4\u03B5\u03C1\u03B9\u03AD, \u03C4\u03BF\u03C5 , \u03C4\u03BF\u03C5 \u03BA\u03B1\u03B9 \u03C4\u03BF\u03C5 . \u03A4\u03BF \u0391\u03BC\u03B5\u03C1\u03B9\u03BA\u03B1\u03BD\u03B9\u03BA\u03CC \u039C\u03C0\u03BF\u03C5\u03BB\u03BD\u03C4\u03CC\u03B3\u03BA \u03BA\u03B1\u03B9 \u03C4\u03BF \u039C\u03C0\u03BF\u03C5\u03BB \u03A4\u03B5\u03C1\u03B9\u03AD \u03C3\u03C5\u03BC\u03C0\u03B5\u03C1\u03B9\u03BB\u03B1\u03BC\u03B2\u03AC\u03BD\u03BF\u03BD\u03C4\u03B1\u03B9 \u03B5\u03C0\u03AF\u03C3\u03B7\u03C2 \u03BC\u03B5\u03C1\u03B9\u03BA\u03AD\u03C2 \u03C6\u03BF\u03C1\u03AD\u03C2. \u03A0\u03BF\u03BB\u03BB\u03AC \u03B1\u03C0\u03CC \u03B1\u03C5\u03C4\u03AC \u03C4\u03B1 \u03C3\u03BA\u03C5\u03BB\u03B9\u03AC \u03B5\u03BA\u03C4\u03C1\u03AC\u03C6\u03B7\u03BA\u03B1\u03BD \u03C9\u03C2 \u03C3\u03BA\u03C5\u03BB\u03B9\u03AC \u03BC\u03B1\u03C7\u03B7\u03C4\u03AD\u03C2 \u03B1\u03C0\u03CC \u03B4\u03B9\u03B1\u03C3\u03C4\u03B1\u03C5\u03C1\u03CE\u03C3\u03B5\u03B9\u03C2 \u03BC\u03B5 \u03C3\u03BA\u03CD\u03BB\u03BF\u03C5\u03C2 \u03C4\u03CD\u03C0\u03BF\u03C5 \u039C\u03C0\u03BF\u03C5\u03BB\u03BD\u03C4\u03CC\u03B3\u03BA \u03BA\u03B1\u03B9 \u03A4\u03B5\u03C1\u03B9\u03AD. \u0391\u03C6\u03BF\u03CD \u03C0\u03BB\u03AD\u03BF\u03BD \u03C4\u03B1 \u03B1\u03B9\u03BC\u03B1\u03C4\u03B7\u03C1\u03AC \u03C3\u03C0\u03BF\u03C1 \u03B1\u03C0\u03B1\u03B3\u03BF\u03C1\u03B5\u03CD\u03C4\u03B7\u03BA\u03B1\u03BD, \u03B1\u03C5\u03C4\u03AC \u03C4\u03B1 \u03C3\u03BA\u03C5\u03BB\u03B9\u03AC \u03C7\u03C1\u03B7\u03C3\u03B9\u03BC\u03BF\u03C0\u03BF\u03B9\u03AE\u03B8\u03B7\u03BA\u03B1\u03BD \u03C9\u03C2 \u03BA\u03C5\u03BD\u03B7\u03B3\u03BF\u03AF \u03C3\u03C4\u03B9\u03C2 \u0397\u03BD\u03C9\u03BC\u03AD\u03BD\u03B5\u03C2 \u03A0\u03BF\u03BB\u03B9\u03C4\u03B5\u03AF\u03B5\u03C2 \u03B3\u03B9\u03B1 \u03BD\u03B1 \u03C0\u03B9\u03AC\u03BD\u03BF\u03C5\u03BD \u03B7\u03BC\u03B9-\u03AC\u03B3\u03C1\u03B9\u03B1 \u03B2\u03BF\u03BF\u03B5\u03B9\u03B4\u03AE \u03BA\u03B1\u03B9 \u03B3\u03BF\u03C5\u03C1\u03BF\u03CD\u03BD\u03B9\u03B1, \u03BD\u03B1 \u03BA\u03C5\u03BD\u03B7\u03B3\u03BF\u03CD\u03BD \u03BA\u03B1\u03B9 \u03BD\u03B1 \u03BA\u03B1\u03C4\u03B5\u03C5\u03B8\u03CD\u03BD\u03BF\u03C5\u03BD \u03BA\u03BF\u03C0\u03AC\u03B4\u03B9\u03B1 \u03B6\u03CE\u03C9\u03BD, \u03B1\u03BB\u03BB\u03AC \u03BA\u03B1\u03B9 \u03C9\u03C2 \u03BF\u03B9\u03BA\u03BF\u03B3\u03B5\u03BD\u03B5\u03B9\u03B1\u03BA\u03BF\u03AF \u03C3\u03CD\u03BD\u03C4\u03C1\u03BF\u03C6\u03BF\u03B9. \u0391\u03BD \u03BA\u03B1\u03B9 \u03BC\u03B5\u03C1\u03B9\u03BA\u03BF\u03AF \u03B9\u03B4\u03B9\u03BF\u03BA\u03C4\u03AE\u03C4\u03B5\u03C2 \u03B5\u03BE\u03B1\u03BA\u03BF\u03BB\u03BF\u03C5\u03B8\u03BF\u03CD\u03BD \u03BD\u03B1 \u03C4\u03B1 \u03B5\u03BA\u03C4\u03C1\u03AD\u03C6\u03BF\u03C5\u03BD \u03BA\u03B1\u03B9 \u03BD\u03B1 \u03C4\u03B1 \u03C7\u03C1\u03B7\u03C3\u03B9\u03BC\u03BF\u03C0\u03BF\u03B9\u03BF\u03CD\u03BD \u03B3\u03B9\u03B1 \u03C0\u03B1\u03C1\u03AC\u03BD\u03BF\u03BC\u03B5\u03C2 \u03BA\u03C5\u03BD\u03BF\u03BC\u03B1\u03C7\u03AF\u03B5\u03C2. \u0397 \u03C0\u03C1\u03B1\u03BA\u03C4\u03B9\u03BA\u03AE \u03B1\u03C5"@el ,
+		"\uD54F\uBD88 \uD14C\uB9AC\uC5B4(pitbull terrier)\uB294 \uC601\uAD6D\uC758 \uBD88\uB3C4\uADF8\uC640 \uD14C\uB9AC\uC5B4\uB97C \uAD50\uBC30\uD574 \uB9CC\uB4E0 \uD22C\uACAC\uC774\uB2E4. \uC6D0\uC0B0\uC9C0\uB294 \uBBF8\uAD6D\uC774\uBA70, \uC870\uC6A9\uD558\uACE0 \uCC28\uBD84\uD55C \uC131\uACA9\uC774\uC9C0\uB9CC \uD55C \uBC88 \uBB3C\uBA74 \uC808\uB300 \uB193\uC9C0 \uC54A\uACE0 \uBAA9\uD45C\uBB3C\uC5D0 \uB300\uD55C \uC9D1\uCC29\uC774 \uB9E4\uC6B0 \uAC15\uD558\uB2E4. \uAE30\uBCF8\uC801\uC73C\uB85C \uC0AC\uB78C\uC5D0\uAC8C \uCE58\uBA85\uC801\uC778 \uC911.\uB300\uD615\uACAC\uC774\uBA70 \uADF8\uC911\uC5D0\uC11C\uB3C4 \uC131\uC9C8\uC774 \uB9E4\uC6B0 \uD749\uD3ED\uD558\uACE0 \uAC81\uC5C6\uC774 \uB2EC\uB824\uB4E4\uACE0 \uC808\uB300\uB85C \uB193\uC9C0 \uC54A\uAE30 \uB54C\uBB38\uC5D0 \uAD49\uC7A5\uD788 \uC704\uD5D8\uD55C \uB9F9\uACAC\uC774\uB2E4. \uD1B5\uACC4\uC0C1 \uAC1C\uB4E4 \uC911\uC5D0\uC11C\uB3C4 \uAC00\uC7A5 \uACF5\uACA9\uC801\uC774\uACE0 \uC0AC\uB78C\uC744 \uAC00\uC7A5 \uB9CE\uC774 \uC8FD\uC774\uB294 \uACAC\uC885\uC774\uB2E4. \uBE44\uC601\uB9AC \uB2E8\uCCB4 DogsBite.org\uC5D0 \uC758\uD558\uBA74, \uBBF8\uAD6D\uB0B4\uC5D0\uC11C 2020\uB144 33\uBA85 \uC774\uC0C1\uC774 \uD54F\uBD88 \uACF5\uACA9\uC744 \uBC1B\uC544 \uBAA9\uC228\uC744 \uC783\uC5C8\uACE0 \uC774\uB294 \uC804\uCCB4 \uAC1C\uBB3C\uB9BC \uC0AC\uB9DD \uC0AC\uACE0 \uC911 72%\uC5D0 \uC774\uB978\uB2E4. 2005\uB144\uC5D0\uC11C 2020\uB144\uAE4C\uC9C0 568\uBA85\uC774 \uAC1C\uC758 \uACF5\uACA9\uC73C\uB85C \uC0AC\uB9DD\uD588\uACE0 \uC774 \uC911 380\uAC74\uC740 \uD54F\uBD88 \uD14C\uB9AC\uC5B4\uC5D0 \uC758\uD55C \uAC83\uC774\uC5C8\uB2E4. \uC774\uB294 \uB300\uB2E8\uD55C \uC22B\uC790\uB85C \uD54F\uBD88\uBCF4\uB2E4 \uC0AC\uB78C\uC744 \uB9CE\uC774 \uC8FD\uC774\uB294 \uB3D9\uBB3C\uC740 \uB098\uC77C\uC545\uC5B4, \uBAA8\uAE30\uBC16\uC5D0 \uC5C6\uB2E4. \uAC1C\uBB3C\uB9BC \uC0AC\uB9DD \uC0AC\uACE0\uC758 60-80%\uB97C \uCC28\uC9C0\uD55C\uB2E4. \uAC8C\uB2E4\uAC00 \uACF5\uACA9\uBC1B\uC740 \uC778\uC6D0\uC758 70%\uAC00 \uBAA9\uC228\uC744 \uC783\uB294\uB370 \uC774\uB294 \uACF5\uACA9\uBC1B\uAE30\uB9CC \uD574\uB3C4 \uC8FD\uC5C8\uB2E4\uACE0 \uBD10\uB3C4 \uB418\uB294 \uC218\uC900\uC774\uB2E4.\uC138\uACC4\uC5D0\uC11C \uAC00\uC7A5 \uC704\uD5D8\uD55C \uAC1C 1\uC704\uB85C \uAF3D\uD788\uB294 \uB4F1 \uAFB8\uC900\uD55C \uD6C8\uB828\uC774 \uD544\uC694\uD55C \uC885\uB958\uC774\uB2E4. \uC0AC\uB78C\uC5D0\uAC8C\uB3C4 \uACF5\uACA9\uC801\uC774\uB2E4. \uC695\uC2EC\uC774 \uB9E4\uC6B0 \uB9CE\uC740 \uAC1C\uB85C \uB3D9\uBB3C\uB4E4\uB9CC \uBCF4\uBA74 \uBB3C\uACE0 \uC2F6\uC740 \uC695\uAD6C\uB97C \uCC38\uAE30 \uD798\uB4E4\uC5B4 \uD55C\uB2E4."@ko ,
+		"Pit bull is a term used in the United States for a type of dog descended from bulldogs and terriers, while in other countries such as the United Kingdom the term is used as an abbreviation of the American Pit Bull Terrier breed. The term was first used in 1927. Within the United States the pit bull is usually considered a heterogeneous grouping that includes the breeds American Pit Bull Terrier, American Staffordshire Terrier, American Bully, Staffordshire Bull Terrier and occasionally the American Bulldog, along with any crossbred dog that shares certain physical characteristics with these breeds. In other countries including Britain, the Staffordshire Bull Terrier is not considered a pit bull. Most pit bull-type dogs descend from the British Bull and terrier, a 19th-century dog-fighting "@en ;
+	rdfs:seeAlso	dbr:Dog_bite ;
+	foaf:depiction	<http://commons.wikimedia.org/wiki/Special:FilePath/Benjamin_Marshall_-_Dustman_-_Bulldog_and_Terrier_Mix.jpg> ,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Pit_bull_with_cropped_ears_at_SFACC.jpg> ,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Pit_bull_sampler.jpg> ,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/11th_PA_Infantry_monument.jpg> ,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Dog_with_Muzzle_-_Gjirokastra_-_Albania_(28539288958).jpg> .
+@prefix dcterms:	<http://purl.org/dc/terms/> .
+@prefix dbc:	<http://dbpedia.org/resource/Category:> .
+dbr:Pit_bull	dcterms:subject	dbc:Dog_breeds_originating_in_the_United_States ,
+		dbc:Catch_dogs ,
+		dbc:Dog_types ,
+		dbc:Dog_fighting_breeds ,
+		dbc:Dog_breeds_originating_in_England ;
+	dbo:abstract	"\u03A0\u03B9\u03C4 \u039C\u03C0\u03BF\u03C5\u03BB(\u03A4\u03B1\u03C3\u03B1\u03C1\u03B1\u03C2 \u03AE \u03B1\u03BB\u03BB\u03B9\u03CE\u03C2 \u039F\u03B9\u03BA\u03BF\u03BD\u03BF\u03BC\u03B9\u03BA\u03AE \u03B4\u03CD\u03BD\u03B1\u03BC\u03B7) \u03B5\u03AF\u03BD\u03B1\u03B9 \u03B7 \u03BA\u03BF\u03B9\u03BD\u03AE \u03BF\u03BD\u03BF\u03BC\u03B1\u03C3\u03AF\u03B1 \u03B3\u03B9\u03B1 \u03AD\u03BD\u03B1\u03BD \u03C3\u03C5\u03B3\u03BA\u03B5\u03BA\u03C1\u03B9\u03BC\u03AD\u03BD\u03BF \u03C4\u03CD\u03C0\u03BF \u03C3\u03BA\u03CD\u03BB\u03C9\u03BD. \u03A4\u03C5\u03C0\u03B9\u03BA\u03AD\u03C2 \u03C6\u03C5\u03BB\u03AD\u03C2 \u03C3\u03C4\u03B7 \u0392\u03CC\u03C1\u03B5\u03B9\u03B1 \u0391\u03BC\u03B5\u03C1\u03B9\u03BA\u03AE \u03C3\u03C5\u03C7\u03BD\u03AC \u03B8\u03B5\u03C9\u03C1\u03BF\u03CD\u03BD\u03C4\u03B1\u03B9 \u03C4\u03CD\u03C0\u03BF\u03C5 Pit Bull, \u03C3\u03C5\u03BC\u03C0\u03B5\u03C1\u03B9\u03BB\u03B1\u03BC\u03B2\u03B1\u03BD\u03BF\u03BC\u03AD\u03BD\u03BF\u03C5 \u03C4\u03BF\u03C5 \u0391\u03BC\u03B5\u03C1\u03B9\u03BA\u03B1\u03BD\u03B9\u03BA\u03BF\u03CD \u03A0\u03B9\u03C4 \u039C\u03C0\u03BF\u03C5\u03BB \u03A4\u03B5\u03C1\u03B9\u03AD, \u03C4\u03BF\u03C5 , \u03C4\u03BF\u03C5 \u03BA\u03B1\u03B9 \u03C4\u03BF\u03C5 . \u03A4\u03BF \u0391\u03BC\u03B5\u03C1\u03B9\u03BA\u03B1\u03BD\u03B9\u03BA\u03CC \u039C\u03C0\u03BF\u03C5\u03BB\u03BD\u03C4\u03CC\u03B3\u03BA \u03BA\u03B1\u03B9 \u03C4\u03BF \u039C\u03C0\u03BF\u03C5\u03BB \u03A4\u03B5\u03C1\u03B9\u03AD \u03C3\u03C5\u03BC\u03C0\u03B5\u03C1\u03B9\u03BB\u03B1\u03BC\u03B2\u03AC\u03BD\u03BF\u03BD\u03C4\u03B1\u03B9 \u03B5\u03C0\u03AF\u03C3\u03B7\u03C2 \u03BC\u03B5\u03C1\u03B9\u03BA\u03AD\u03C2 \u03C6\u03BF\u03C1\u03AD\u03C2. \u03A0\u03BF\u03BB\u03BB\u03AC \u03B1\u03C0\u03CC \u03B1\u03C5\u03C4\u03AC \u03C4\u03B1 \u03C3\u03BA\u03C5\u03BB\u03B9\u03AC \u03B5\u03BA\u03C4\u03C1\u03AC\u03C6\u03B7\u03BA\u03B1\u03BD \u03C9\u03C2 \u03C3\u03BA\u03C5\u03BB\u03B9\u03AC \u03BC\u03B1\u03C7\u03B7\u03C4\u03AD\u03C2 \u03B1\u03C0\u03CC \u03B4\u03B9\u03B1\u03C3\u03C4\u03B1\u03C5\u03C1\u03CE\u03C3\u03B5\u03B9\u03C2 \u03BC\u03B5 \u03C3\u03BA\u03CD\u03BB\u03BF\u03C5\u03C2 \u03C4\u03CD\u03C0\u03BF\u03C5 \u039C\u03C0\u03BF\u03C5\u03BB\u03BD\u03C4\u03CC\u03B3\u03BA \u03BA\u03B1\u03B9 \u03A4\u03B5\u03C1\u03B9\u03AD. \u0391\u03C6\u03BF\u03CD \u03C0\u03BB\u03AD\u03BF\u03BD \u03C4\u03B1 \u03B1\u03B9\u03BC\u03B1\u03C4\u03B7\u03C1\u03AC \u03C3\u03C0\u03BF\u03C1 \u03B1\u03C0\u03B1\u03B3\u03BF\u03C1\u03B5\u03CD\u03C4\u03B7\u03BA\u03B1\u03BD, \u03B1\u03C5\u03C4\u03AC \u03C4\u03B1 \u03C3\u03BA\u03C5\u03BB\u03B9\u03AC \u03C7\u03C1\u03B7\u03C3\u03B9\u03BC\u03BF\u03C0\u03BF\u03B9\u03AE\u03B8\u03B7\u03BA\u03B1\u03BD \u03C9\u03C2 \u03BA\u03C5\u03BD\u03B7\u03B3\u03BF\u03AF \u03C3\u03C4\u03B9\u03C2 \u0397\u03BD\u03C9\u03BC\u03AD\u03BD\u03B5\u03C2 \u03A0\u03BF\u03BB\u03B9\u03C4\u03B5\u03AF\u03B5\u03C2 \u03B3\u03B9\u03B1 \u03BD\u03B1 \u03C0\u03B9\u03AC\u03BD\u03BF\u03C5\u03BD \u03B7\u03BC\u03B9-\u03AC\u03B3\u03C1\u03B9\u03B1 \u03B2\u03BF\u03BF\u03B5\u03B9\u03B4\u03AE \u03BA\u03B1\u03B9 \u03B3\u03BF\u03C5\u03C1\u03BF\u03CD\u03BD\u03B9\u03B1, \u03BD\u03B1 \u03BA\u03C5\u03BD\u03B7\u03B3\u03BF\u03CD\u03BD \u03BA\u03B1\u03B9 \u03BD\u03B1 \u03BA\u03B1\u03C4\u03B5\u03C5\u03B8\u03CD\u03BD\u03BF\u03C5\u03BD \u03BA\u03BF\u03C0\u03AC\u03B4\u03B9\u03B1 \u03B6\u03CE\u03C9\u03BD, \u03B1\u03BB\u03BB\u03AC \u03BA\u03B1\u03B9 \u03C9\u03C2 \u03BF\u03B9\u03BA\u03BF\u03B3\u03B5\u03BD\u03B5\u03B9\u03B1\u03BA\u03BF\u03AF \u03C3\u03CD\u03BD\u03C4\u03C1\u03BF\u03C6\u03BF\u03B9. \u0391\u03BD \u03BA\u03B1\u03B9 \u03BC\u03B5\u03C1\u03B9\u03BA\u03BF\u03AF \u03B9\u03B4\u03B9\u03BF\u03BA\u03C4\u03AE\u03C4\u03B5\u03C2 \u03B5\u03BE\u03B1\u03BA\u03BF\u03BB\u03BF\u03C5\u03B8\u03BF\u03CD\u03BD \u03BD\u03B1 \u03C4\u03B1 \u03B5\u03BA\u03C4\u03C1\u03AD\u03C6\u03BF\u03C5\u03BD \u03BA\u03B1\u03B9 \u03BD\u03B1 \u03C4\u03B1 \u03C7\u03C1\u03B7\u03C3\u03B9\u03BC\u03BF\u03C0\u03BF\u03B9\u03BF\u03CD\u03BD \u03B3\u03B9\u03B1 \u03C0\u03B1\u03C1\u03AC\u03BD\u03BF\u03BC\u03B5\u03C2 \u03BA\u03C5\u03BD\u03BF\u03BC\u03B1\u03C7\u03AF\u03B5\u03C2. \u0397 \u03C0\u03C1\u03B1\u03BA\u03C4\u03B9\u03BA\u03AE \u03B1\u03C5\u03C4\u03AE \u03C3\u03C5\u03BD\u03B5\u03C7\u03AF\u03B6\u03B5\u03C4\u03B1\u03B9 \u03BC\u03AD\u03C7\u03C1\u03B9 \u03C3\u03AE\u03BC\u03B5\u03C1\u03B1, \u03B1\u03BB\u03BB\u03AC \u03B5\u03AF\u03BD\u03B1\u03B9 \u03C0\u03B1\u03C1\u03AC\u03BD\u03BF\u03BC\u03B7 \u03C3\u03B5 \u03C0\u03BF\u03BB\u03BB\u03AD\u03C2 \u03C7\u03CE\u03C1\u03B5\u03C2."@el ,
+		"Pitbull is een informele benaming van veel hondenrassen in de Verenigde Staten, maar slechts \u00E9\u00E9n hondenras heeft \"Pitbull\" als onderdeel van zijn formele naam, de Amerikaanse pitbullterri\u00EBr.De definitie van \"Pitbull\" als een groep van hondenrassen of slechts \u00E9\u00E9n hondenras maakt het moeilijk om correcte gegevens te verzamelen voor bijvoorbeeld statistieken over hondenaanvallen. Sommige dierenasiels in de Verenigde Staten ondersteunen een vage definitie dat \"pitbull\" is elke hond met bepaalde kenmerken zoals waaronder een brede kaak en atletische bouw, en de relatie met de bulldog. De Amerikaanse pitbullterri\u00EBr, Amerikaanse staffordshireterri\u00EBr, staffordshire-bulterri\u00EBr en Amerikaanse buldog worden beschouwd als Pitbulls binnen deze vage definitie. Sommige professionele hondenkwekers en experts beweren echter dat de Amerikaanse pitbullterri\u00EBr het enige hondenras is dat Pitbull genoemd kan worden."@nl ,
+		"\u0627\u0644\u0628\u064A\u062A\u0628\u0648\u0644 \u0623\u0648 \u0628\u064A\u062F\u0628\u0648\u0644 (\u0628\u0627\u0644\u0625\u0646\u062C\u0644\u064A\u0632\u064A\u0629: Pit Bull)\u200F \u0647\u062C\u0646 \u0643\u0644\u0628 \u0627\u0644\u0628\u064A\u062A\u0628\u0648\u0644 \u0645\u0646 \u0639\u062F\u0651\u0629 \u0623\u0646\u0648\u0627\u0639 \u0645\u0646 \u0627\u0644\u0643\u0644\u0627\u0628 \u0644\u0644\u062D\u0635\u0648\u0644 \u0639\u0644\u0649 \u0643\u0644\u0628 \u0628\u0645\u0645\u064A\u0632\u0627\u062A \u0639\u0627\u0644\u064A\u0629 \u0645\u0646 \u062D\u064A\u062B \u0627\u0644\u0642\u0648\u0629 \u0627\u0644\u0647\u062C\u0648\u0645\u064A\u0629 \u0648\u0627\u0644\u0634\u0631\u0627\u0633\u0629\u060C \u0645\u0645\u0627 \u062C\u0639\u0644\u0647 \u064A\u0635\u0646\u0641 \u0643\u0623\u0643\u062B\u0631 \u0627\u0644\u0643\u0644\u0627\u0628 \u0634\u0631\u0627\u0633\u0629 \u0648\u0639\u062F\u0648\u0627\u0646\u064A\u0629 \u0648\u0627\u0644\u0623\u0642\u0648\u0649 \u0628\u064A\u0646\u0647\u0627. \u062A\u062E\u0627\u0641\u0647 \u0645\u0639\u0638\u0645 \u0627\u0644\u0643\u0644\u0627\u0628 \u0644\u0634\u0631\u0627\u0633\u062A\u0647\u060C \u0625\u0644\u0627 \u0623\u0646\u0651\u0647 \u064A\u0639\u0631\u0641 \u0628\u0637\u0628\u0639\u0647 \u0627\u0644\u0648\u062F\u0648\u062F \u0648\u0627\u0644\u0648\u0641\u064A \u062A\u062C\u0627\u0647 \u0645\u0631\u0628\u064A\u0647\u060C \u0625\u0644\u0627 \u0641\u064A \u0627\u0644\u062D\u0627\u0644\u0627\u062A \u0627\u0644\u062A\u064A \u064A\u062A\u0639\u0631\u0636 \u0641\u064A\u0647\u0627 \u0644\u0633\u0648\u0621 \u0627\u0644\u0645\u0639\u0627\u0645\u0644\u0629 \u0648\u0627\u0644\u0636\u0631\u0628 \u0641\u064A\u0645\u0643\u0646 \u0623\u0646 \u064A\u062A\u0633\u0628\u0651\u0628 \u0628\u0627\u0644\u0623\u0630\u0649 \u0644\u0645\u0631\u0628\u064A\u0647 \u0646\u062A\u064A\u062C\u0629 \u0630\u0644\u0643. \u0628\u0627\u0644\u0631\u063A\u0645 \u0645\u0646 \u0623\u0646\u0651 \u0627\u0644\u0647\u062F\u0641 \u0645\u0646 \u062A\u0647\u062C\u064A\u0646 \u0643\u0644\u0627\u0628 \u0627\u0644\u0628\u064A\u062A\u0628\u0648\u0644 \u0627\u0644\u0627\u0633\u062A\u0639\u0627\u0646\u0629 \u0628\u0647\u0627 \u0641\u064A \u0635\u064A\u062F \u0627\u0644\u0645\u0648\u0627\u0634\u064A \u0627\u0644\u0636\u062E\u0645\u0629\u060C \u0625\u0644\u0627 \u0623\u0646\u0651 \u0642\u0648\u062A\u0647 \u0648\u0634\u0631\u0627\u0633\u062A\u0647 \u062C\u0639\u0644\u062A \u0627\u0644\u0643\u062B\u064A\u0631 \u0645\u0646 \u0645\u0631\u0628\u064A\u0647 \u064A\u0644\u062C\u0624\u0648\u0646 \u0625\u0644\u0649 \u0627\u0633\u062A\u062E\u062F\u0627\u0645\u0647 \u0641\u064A \u0627\u0644\u0645\u0628\u0627\u0631\u064A\u0627\u062A \u0648\u0627\u0644\u0646\u0632\u0627\u0644\u0627\u062A \u0627\u0644\u0634\u0631\u0633\u0629 \u0627\u0644\u062A\u064A \u062A\u0642\u0627\u0645 \u0628\u064A\u0646 \u0627\u0644\u0643\u0644\u0627\u0628\u060C \u062D\u064A\u062B \u064A\u0645\u062A\u0627\u0632 \u0639\u0646 \u063A\u064A\u0631\u0647 \u0645\u0646 \u0627\u0644\u0643\u0644\u0627\u0628 \u0627\u0644\u0645\u0634\u0627\u0631\u0643\u0629 \u0641\u064A \u0647\u0630\u0647 \u0627\u0644\u0646\u0632\u0627\u0644\u0627\u062A \u0628\u0642\u062F\u0631\u062A\u0647 \u0639\u0644\u0649 \u0627\u0644\u0642\u062A\u0627\u0644 \u0644\u0648\u0642\u062A \u0637\u0648\u064A\u0644 \u062F\u0648\u0646 \u0627\u0644\u0627\u0633\u062A\u0633\u0644\u0627\u0645\u060C \u062D\u062A\u0649 \u0644\u0648 \u0623\u062F\u0649 \u0630\u0644\u0643 \u0625\u0644\u0649 \u0645\u0648\u062A\u0647 \u0644\u0634\u062F\u0629 \u0637\u0628\u0639\u0647 \u0627\u0644\u0639\u0646\u064A\u062F \u0648\u0639\u0627\u062F\u0629 \u064A\u062A\u0645 \u0642\u0637\u0639 \u0623\u0630\u0646\u064A\u0647 \u0644\u0643\u064A \u0644\u0627 \u064A\u062A\u0623\u0644\u0645 \u0639\u0646\u062F \u0627\u0644\u0642\u062A\u0627\u0644."@ar ,
+		"Pit bull txakur arraza zenbaiti aplikatzen zaien izen generikoa da. Besteak beste, American pit bull terrier, American Staffordshire terrier, Staffordshire bull terrier, American Bulldog izeneko txakur arrazak biltzen ditu, herrialde batetik bestera pit bull terminoak barnehartzen dituen ezaugarriak aldatzen badira ere. Txakur multzo hau ezaguna da bere erasokortasunagatik eta ugari dira beraien erasoez hildako pertsonak; hori dela eta, herrialde zenbaitetan txakur hauei buruzko araudi zorrotzak ezarri dira."@eu ,
+		"Pit bull is a term used in the United States for a type of dog descended from bulldogs and terriers, while in other countries such as the United Kingdom the term is used as an abbreviation of the American Pit Bull Terrier breed. The term was first used in 1927. Within the United States the pit bull is usually considered a heterogeneous grouping that includes the breeds American Pit Bull Terrier, American Staffordshire Terrier, American Bully, Staffordshire Bull Terrier and occasionally the American Bulldog, along with any crossbred dog that shares certain physical characteristics with these breeds. In other countries including Britain, the Staffordshire Bull Terrier is not considered a pit bull. Most pit bull-type dogs descend from the British Bull and terrier, a 19th-century dog-fighting type developed from crosses between the Old English Bulldog and the Old English Terrier. Pit bull-type dogs have a controversial reputation as pets both in the United States and internationally, due to their history in dog fighting, the number of high-profile attacks documented in the media over decades, and their proclivity to latching on while biting. Proponents of the breed and advocates of regulation have engaged in a nature-versus-nurture debate over whether apparent aggressive tendencies in pit bulls may be appropriately attributed to owners' care for the dog or inherent qualities. Numerous advocacy organizations have sprung up in defense of the pit bull. Some studies have argued that the type is not disproportionately dangerous, offering competing interpretations on dog bite statistics. Independent organizations have published statistics based on hospital records showing pit bulls are responsible for more than half of dog bite incidents among all breeds despite comprising 6% of pet dogs. Some insurance companies will not cover pit bulls (along with rottweilers and wolf hybrids) because these particular breeds cause a disproportionate rate of bite incidents. Dog bite severity varies by the breed of dog, and studies have found that pit bull-type dogs have both the highest risk of biting and a tendency to produce the most severe injuries. Pit bull-type dogs are extensively used in the United States for dogfighting, a practice that has continued despite being outlawed. A number of nations and jurisdictions restrict the ownership of pit bull-type dogs through breed-specific legislation. A pro-pit bull lobby exists that spends millions of dollars a year promoting pit bulls as family pets, funding pro-pit bull researchers, and opposing laws that regulate their ownership."@en ,
+		"\uD54F\uBD88 \uD14C\uB9AC\uC5B4(pitbull terrier)\uB294 \uC601\uAD6D\uC758 \uBD88\uB3C4\uADF8\uC640 \uD14C\uB9AC\uC5B4\uB97C \uAD50\uBC30\uD574 \uB9CC\uB4E0 \uD22C\uACAC\uC774\uB2E4. \uC6D0\uC0B0\uC9C0\uB294 \uBBF8\uAD6D\uC774\uBA70, \uC870\uC6A9\uD558\uACE0 \uCC28\uBD84\uD55C \uC131\uACA9\uC774\uC9C0\uB9CC \uD55C \uBC88 \uBB3C\uBA74 \uC808\uB300 \uB193\uC9C0 \uC54A\uACE0 \uBAA9\uD45C\uBB3C\uC5D0 \uB300\uD55C \uC9D1\uCC29\uC774 \uB9E4\uC6B0 \uAC15\uD558\uB2E4. \uAE30\uBCF8\uC801\uC73C\uB85C \uC0AC\uB78C\uC5D0\uAC8C \uCE58\uBA85\uC801\uC778 \uC911.\uB300\uD615\uACAC\uC774\uBA70 \uADF8\uC911\uC5D0\uC11C\uB3C4 \uC131\uC9C8\uC774 \uB9E4\uC6B0 \uD749\uD3ED\uD558\uACE0 \uAC81\uC5C6\uC774 \uB2EC\uB824\uB4E4\uACE0 \uC808\uB300\uB85C \uB193\uC9C0 \uC54A\uAE30 \uB54C\uBB38\uC5D0 \uAD49\uC7A5\uD788 \uC704\uD5D8\uD55C \uB9F9\uACAC\uC774\uB2E4. \uD1B5\uACC4\uC0C1 \uAC1C\uB4E4 \uC911\uC5D0\uC11C\uB3C4 \uAC00\uC7A5 \uACF5\uACA9\uC801\uC774\uACE0 \uC0AC\uB78C\uC744 \uAC00\uC7A5 \uB9CE\uC774 \uC8FD\uC774\uB294 \uACAC\uC885\uC774\uB2E4. \uBE44\uC601\uB9AC \uB2E8\uCCB4 DogsBite.org\uC5D0 \uC758\uD558\uBA74, \uBBF8\uAD6D\uB0B4\uC5D0\uC11C 2020\uB144 33\uBA85 \uC774\uC0C1\uC774 \uD54F\uBD88 \uACF5\uACA9\uC744 \uBC1B\uC544 \uBAA9\uC228\uC744 \uC783\uC5C8\uACE0 \uC774\uB294 \uC804\uCCB4 \uAC1C\uBB3C\uB9BC \uC0AC\uB9DD \uC0AC\uACE0 \uC911 72%\uC5D0 \uC774\uB978\uB2E4. 2005\uB144\uC5D0\uC11C 2020\uB144\uAE4C\uC9C0 568\uBA85\uC774 \uAC1C\uC758 \uACF5\uACA9\uC73C\uB85C \uC0AC\uB9DD\uD588\uACE0 \uC774 \uC911 380\uAC74\uC740 \uD54F\uBD88 \uD14C\uB9AC\uC5B4\uC5D0 \uC758\uD55C \uAC83\uC774\uC5C8\uB2E4. \uC774\uB294 \uB300\uB2E8\uD55C \uC22B\uC790\uB85C \uD54F\uBD88\uBCF4\uB2E4 \uC0AC\uB78C\uC744 \uB9CE\uC774 \uC8FD\uC774\uB294 \uB3D9\uBB3C\uC740 \uB098\uC77C\uC545\uC5B4, \uBAA8\uAE30\uBC16\uC5D0 \uC5C6\uB2E4. \uAC1C\uBB3C\uB9BC \uC0AC\uB9DD \uC0AC\uACE0\uC758 60-80%\uB97C \uCC28\uC9C0\uD55C\uB2E4. \uAC8C\uB2E4\uAC00 \uACF5\uACA9\uBC1B\uC740 \uC778\uC6D0\uC758 70%\uAC00 \uBAA9\uC228\uC744 \uC783\uB294\uB370 \uC774\uB294 \uACF5\uACA9\uBC1B\uAE30\uB9CC \uD574\uB3C4 \uC8FD\uC5C8\uB2E4\uACE0 \uBD10\uB3C4 \uB418\uB294 \uC218\uC900\uC774\uB2E4.\uC138\uACC4\uC5D0\uC11C \uAC00\uC7A5 \uC704\uD5D8\uD55C \uAC1C 1\uC704\uB85C \uAF3D\uD788\uB294 \uB4F1 \uAFB8\uC900\uD55C \uD6C8\uB828\uC774 \uD544\uC694\uD55C \uC885\uB958\uC774\uB2E4. \uC0AC\uB78C\uC5D0\uAC8C\uB3C4 \uACF5\uACA9\uC801\uC774\uB2E4. \uC695\uC2EC\uC774 \uB9E4\uC6B0 \uB9CE\uC740 \uAC1C\uB85C \uB3D9\uBB3C\uB4E4\uB9CC \uBCF4\uBA74 \uBB3C\uACE0 \uC2F6\uC740 \uC695\uAD6C\uB97C \uCC38\uAE30 \uD798\uB4E4\uC5B4 \uD55C\uB2E4. \uC5D0\uB108\uC9C0\uAC00 \uB9E4\uC6B0 \uB118\uCE58\uBA70 \uC0AC\uACE0\uB97C \uC77C\uC73C\uD0A4\uAE30 \uC26C\uC6B4 \uC885\uC73C\uB85C \uCD08\uBCF4\uC790\uAC00 \uD0A4\uC6B0\uAE30 \uD798\uB4E0 \uC885\uC774\uB2E4. \uC8FC\uC694 \uC9C8\uBCD1\uC740 \uBC31\uB0B4\uC7A5\uACFC \uC2EC\uC7A5\uB9C8\uBE44\uAC00 \uC788\uB2E4."@ko ,
+		"Pit bull adalah nama umum untuk jenis anjing yang diturunkan dari bulldog dan terrier . Jenis pit bull sangat ambigu karena mencakup berbagai keturunan, jenis informal dan penampilan yang tidak dapat diidentifikasi secara andal. Keturunan formal yang sering dianggap sebagai tipe pit bull termasuk American Pit Bull Terrier, American Staffordshire Terrier, American Bully, dan Staffordshire Bull Terrier . American Bulldog juga terkadang disertakan. Anjing ras campuran yang secara fisik menyerupai ras ini sering diberi label \"pit bulls\" oleh tempat penampungan. Banyak dari breed-breed ini pada awalnya dikembangkan sebagai anjing-anjing yang bertarung dari anjing-anjing pengumpan banteng silang (yang digunakan untuk memegang wajah dan kepala hewan-hewan besar seperti sapi jantan) dan terrier . Setelah penggunaan anjing dalam olahraga darah dilarang, anjing seperti itu digunakan sebagai anjing tangkapan di Amerika Serikat untuk ternak dan babi semi-liar, untuk berburu dan mengendarai ternak, dan sebagai teman keluarga. Meskipun perkelahian anjing sekarang menjadi ilegal di Amerika Serikat, itu masih ada sebagai kegiatan bawah tanah, dan pit bull adalah jenis yang umum digunakan. Pemilik anjing jenis pit bull berurusan dengan stigma jenis kuat, namun studi terkontrol belum mengidentifikasi kelompok jenis ini sebagai berbahaya secara tidak proporsional. Karena pemilik breed yang distigmatisasi lebih mungkin untuk terlibat dalam tindakan kriminal dan / atau kekerasan, korelasi breed mungkin memiliki perilaku pemilik sebagai faktor penyebab yang mendasarinya. Beberapa yurisdiksi telah memberlakukan undang-undang yang melarang kelompok ras, dan beberapa perusahaan asuransi tidak menanggung kewajiban dari gigitan pit bull. Di antara peran-peran lain, pit bulls telah berperan sebagai anjing polisi, anjing pencari dan penyelamat, dan beberapa muncul di film."@in ,
+		"\u6BD4\u7279\u9B25\u725B\u3E74\uFF08\u82F1\u8A9E\uFF1APit Bull\uFF09\uFF0C\u53C8\u7A31\u300C\u60E1\u9738\u72D7\u300D\uFF0C\u6CDB\u6307\u5305\u542B\u5176\u4ED6\u985E\u4F3C\u54C1\u7A2E\uFF0C\u70BA\u6578\u7A2E\u9B25\u725B\u985E\u72AC\u4E4B\u7E3D\u7A31\u3002\u72F9\u7FA9\u7279\u6307\u7F8E\u570B\u6BD4\u7279\u9B25\u725B\u3E74\uFF08American Pit Bull Terrier\uFF09\u3002\u4E3B\u8981\u54C1\u7A2E\u5305\u542B\u6BD4\u7279\u9B25\u725B\u3E74\u3001\u3001\u7F8E\u570B\u9B25\u725B\u72AC\u3001\u65AF\u5854\u798F\u90E1\u9B25\u725B\u6897\u3002"@zh ;
+	dbo:wikiPageWikiLink	dbr:White_supremacist ,
+		dbr:Humane_Society_of_the_United_States ,
+		dbc:Dog_breeds_originating_in_England ,
+		dbr:The_Kennel_Club ,
+		dbr:Dog_fighting ,
+		<http://dbpedia.org/resource/11th_Pennsylvania_Infantry_Regiment> ,
+		dbr:Old_English_Bulldog ,
+		dbr:Ampule ,
+		dbr:Gang_culture ,
+		dbr:Farmers_Insurance ,
+		dbr:Cephalic_index ,
+		dbr:The_Little_Rascals ,
+		dbr:American_Civil_War ,
+		dbr:Centers_for_Disease_Control_and_Prevention ,
+		dbr:Nipper ,
+		dbr:German_Shepherd ,
+		dbr:American_Pit_Bull_Terrier ,
+		<http://dbpedia.org/resource/U.S._Customs_and_Border_Protection> ,
+		dbr:Delta_Air_Lines ,
+		dbr:Legal_liability ,
+		dbr:Breed-specific_legislation ,
+		dbr:Blood_sport ,
+		dbr:Wolfdog ,
+		dbr:Rottweiler ,
+		dbr:World_War_I ,
+		<http://dbpedia.org/resource/French_Ministry_of_Agriculture,_Food_and_Forestry> ,
+		dbr:Bear_baiting ,
+		<http://dbpedia.org/resource/File:Dog_with_Muzzle_-_Gjirokastra_-_Albania_(28539288958).jpg> ,
+		dbr:American_Akita ,
+		dbc:Dog_fighting_breeds ,
+		dbr:Drug_detection_dog ,
+		dbr:Akita_Inu ,
+		dbr:Old_English_Terrier ,
+		dbr:Cesar_Millan ,
+		dbr:Protection_of_Animals_Act_1911 ,
+		dbr:American_Bulldog ,
+		dbr:Center_for_Animal_Care_and_Control ,
+		dbc:Dog_breeds_originating_in_the_United_States ,
+		dbr:Nature-versus-nurture ,
+		<http://dbpedia.org/resource/File:Pit_bull_with_cropped_ears_at_SFACC.jpg> ,
+		dbr:Francis_Barraud ,
+		dbc:Catch_dogs ,
+		dbc:Dog_types ,
+		dbr:Dog_type ,
+		<http://dbpedia.org/resource/File:11th_PA_Infantry_monument.jpg> ,
+		<http://dbpedia.org/resource/File:Benjamin_Marshall_-_Dustman_-_Bulldog_and_Terrier_Mix.jpg> ,
+		dbr:RCA ,
+		dbr:American_Airlines ,
+		dbr:Siberian_Husky ,
+		dbr:Bull_baiting ,
+		dbr:Miami ,
+		dbr:United_Airlines ,
+		dbr:Dobermann ,
+		dbr:Anti-Defamation_League ,
+		dbr:Rat_baiting ,
+		dbr:San_Francisco_SPCA ,
+		<http://dbpedia.org/resource/His_Master\u0027s_Voice> ,
+		dbr:Terrier ,
+		dbr:Air_France ,
+		dbr:Staffordshire_Bull_Terrier ,
+		dbr:Alaska_Airlines ,
+		dbr:Dangerous_Dogs_Act_1991 ,
+		dbr:Pete_the_Pup ,
+		<http://dbpedia.org/resource/26th_Infantry_Division_(United_States)> ,
+		dbr:Black_Country ,
+		<http://dbpedia.org/resource/Daddy_(dog)> ,
+		dbr:Florida_Bar ,
+		dbr:American_Kennel_Club ,
+		dbr:Status_dog ,
+		<http://dbpedia.org/resource/Star_(dog)> ,
+		dbr:Center_for_Disease_Control_and_Prevention ,
+		dbr:Canine_Good_Citizen ,
+		dbr:Singapore ,
+		dbr:American_Society_for_the_Prevention_of_Cruelty_to_Animals ,
+		dbr:Bulldog ,
+		dbr:Ammonia ,
+		dbr:Bull_and_terrier ,
+		dbr:Sallie_Ann_Jarrett ,
+		dbr:Supreme_Court_of_Florida ,
+		dbr:Keystone_State_Skinheads ,
+		dbr:American_Staffordshire_Terrier ,
+		dbr:Brown_Shoe_Company ,
+		dbr:Kennel_club ,
+		dbr:United_Kennel_Club ,
+		dbr:American_Bully ,
+		dbr:American_Veterinary_Medical_Association ,
+		dbr:Embargo ,
+		dbr:Sergeant_Stubby ,
+		dbr:Strict_liability ,
+		dbr:Chow_Chow ,
+		dbr:Black_and_Tan_Terrier ,
+		dbr:Labrador_Retriever ,
+		dbr:Ontario ,
+		dbr:Denver .
+@prefix dbp:	<http://dbpedia.org/property/> .
+@prefix dbt:	<http://dbpedia.org/resource/Template:> .
+dbr:Pit_bull	dbp:wikiPageUsesTemplate	dbt:Authority_control ,
+		dbt:Terriers ,
+		dbt:Rp ,
+		dbt:Short_description ,
+		dbt:Main ,
+		dbt:Portal_bar ,
+		dbt:Use_mdy_dates ,
+		dbt:Better_source_needed ,
+		dbt:Redirect ,
+		dbt:Pp-vandalism ,
+		dbt:R ,
+		dbt:See_also ,
+		dbt:Reflist ,
+		dbt:Infobox_Dogbreed ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Pit_bull_sampler.jpg?width=300> ;
+	dbo:wikiPageRevisionID	1118577560 ;
+	dbp:country	"United States"@en .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+dbr:Pit_bull	dbo:wikiPageLength	"58486"^^xsd:nonNegativeInteger ;
+	dbo:wikiPageID	64235 ;
+	dbp:name	"Pit bull"@en .
+@prefix dbpedia-es:	<http://es.dbpedia.org/resource/> .
+dbr:Pit_bull	owl:sameAs	dbpedia-es:Pit_bull ,
+		<http://hy.dbpedia.org/resource/\u054A\u056B\u057F\u0562\u0578\u0582\u056C_(\u0577\u0578\u0582\u0576)> .
+@prefix dbpedia-vi:	<http://vi.dbpedia.org/resource/> .
+dbr:Pit_bull	owl:sameAs	dbpedia-vi:Pit_bull .
+@prefix dbpedia-et:	<http://et.dbpedia.org/resource/> .
+dbr:Pit_bull	owl:sameAs	dbpedia-et:Pitbullterjer .
+@prefix dbpedia-ro:	<http://ro.dbpedia.org/resource/> .
+dbr:Pit_bull	owl:sameAs	dbpedia-ro:Pitbull ,
+		<http://rdf.freebase.com/ns/m.0h5xg> ,
+		<http://nl.dbpedia.org/resource/Pitbull_(hond)> .
+@prefix dbpedia-eu:	<http://eu.dbpedia.org/resource/> .
+dbr:Pit_bull	owl:sameAs	dbpedia-eu:Pit_bull ,
+		<http://zh.dbpedia.org/resource/\u6BD4\u7279\u72AC> ,
+		<http://ko.dbpedia.org/resource/\uD54F\uBD88_\uD14C\uB9AC\uC5B4> .
+@prefix ns18:	<https://global.dbpedia.org/id/> .
+dbr:Pit_bull	owl:sameAs	ns18:CJCy .
+@prefix dbpedia-simple:	<http://simple.dbpedia.org/resource/> .
+dbr:Pit_bull	owl:sameAs	dbpedia-simple:Pit_bull .
+@prefix dbpedia-id:	<http://id.dbpedia.org/resource/> .
+dbr:Pit_bull	owl:sameAs	dbpedia-id:Pit_bull ,
+		<http://fa.dbpedia.org/resource/\u067E\u06CC\u062A_\u0628\u0648\u0644> ,
+		<http://ar.dbpedia.org/resource/\u0628\u064A\u062A\u0628\u0648\u0644> .
+@prefix yago-res:	<http://yago-knowledge.org/resource/> .
+dbr:Pit_bull	owl:sameAs	yago-res:Pit_bull .
+@prefix wikidata:	<http://www.wikidata.org/entity/> .
+dbr:Pit_bull	owl:sameAs	wikidata:Q1144318 ,
+		<http://bg.dbpedia.org/resource/\u041F\u0438\u0442\u0431\u0443\u043B> .
+@prefix dbpedia-ms:	<http://ms.dbpedia.org/resource/> .
+dbr:Pit_bull	owl:sameAs	dbpedia-ms:Pit_bull .
+@prefix dbpedia-pt:	<http://pt.dbpedia.org/resource/> .
+dbr:Pit_bull	owl:sameAs	dbpedia-pt:Pit_bull ,
+		<http://ml.dbpedia.org/resource/\u0D2A\u0D3F\u0D31\u0D4D\u0D31\u0D4D_\u0D2C\u0D41\u0D7E_\u0D1F\u0D46\u0D31\u0D3F\u0D2F\u0D7C> ,
+		dbr:Pit_bull .
+@prefix dbpedia-nn:	<http://nn.dbpedia.org/resource/> .
+dbr:Pit_bull	owl:sameAs	dbpedia-nn:Pitbull ,
+		<http://el.dbpedia.org/resource/\u03A0\u03B9\u03C4_\u039C\u03C0\u03BF\u03C5\u03BB> .
+@prefix dbpedia-gl:	<http://gl.dbpedia.org/resource/> .
+dbr:Pit_bull	owl:sameAs	dbpedia-gl:Pit_bull ,
+		<http://hi.dbpedia.org/resource/\u092A\u093F\u091F_\u092C\u0941\u0932> .
+@prefix dbpedia-no:	<http://no.dbpedia.org/resource/> .
+dbr:Pit_bull	owl:sameAs	dbpedia-no:Pitbuller .
+@prefix gold:	<http://purl.org/linguistics/gold/> .
+dbr:Pit_bull	gold:hypernym	dbr:Name .
+@prefix prov:	<http://www.w3.org/ns/prov#> .
+dbr:Pit_bull	prov:wasDerivedFrom	<http://en.wikipedia.org/wiki/Pit_bull?oldid=1118577560&ns=0> ;
+	dbp:imageCaption	"A selection of dog breeds sometimes classified as pit bull types. Clockwise from top left: American Pit Bull Terrier, American Staffordshire Terrier, American Bulldog, Staffordshire Bull Terrier."@en ;
+	foaf:isPrimaryTopicOf	wikipedia-en:Pit_bull .
+dbr:Pit_bull_terrier	dbo:wikiPageWikiLink	dbr:Pit_bull ;
+	dbo:wikiPageRedirects	dbr:Pit_bull .
+<http://dbpedia.org/resource/Berry_v._Superior_Court>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Curt_Anderson	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Knights_of_the_Dinner_Table	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Crazy_Kids	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Wolfdog	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Karen_Dawn	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:John_Woestendiek	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Rick_Bassman	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Megan_Thee_Stallion	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Gerald_McClellan	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/John_Wick_(character)>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/John_Wick_(film)>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Big_Boi	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Dog_fighting	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Dog_fighting_in_the_United_States	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/James_Harrison_(American_football)>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Rembrandt_Pussyhorse	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Zoomusicology	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:List_of_animals_in_film_and_television	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/There\u0027s_a_Riot_Goin\u0027_On>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Mike_Tyson_vs._Buster_Douglas>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Ontario_Libertarian_Party_candidates_in_the_2003_Ontario_provincial_election	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Dominic_Perri	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/List_of_Mr._Pickles_and_Momma_Named_Me_Sheriff_characters>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Randy_Hillier	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:List_of_symbols_designated_by_the_Anti-Defamation_League_as_hate_symbols	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Bailiff_Byrd	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:List_of_fatal_dog_attacks_in_the_United_States	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Heavy_Metal_and_Reflective	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Kitten_Natividad	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Ralph_Gracie	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Uplifting_Entertainment	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Horatio\u0027s_Drive:_America\u0027s_First_Road_Trip>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/The_Drop_(film)>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Tabloid_(film)>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Carnival_Capers	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:National_Football_League_player_conduct_policy	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Wallace_(pitbull)>	dbo:wikiPageWikiLink	dbr:Pit_bull ;
+	dbp:breed	dbr:Pit_bull .
+dbr:The_Lightning_Child	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:American_Dog_Breeders_Association	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Golden_Collar_Awards	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Mavrlen	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Shaq\u0027s_Fun_House>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:El_Mariachi	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Once_Upon_a_Time_in_Hollywood	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:List_of_In_Living_Color_sketches	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Black_(play)>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:DogTown	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Pat_the_Dog	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:List_of_fatal_dog_attacks	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Lisa_Gladden	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Cephalic_index	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Jon_Bernthal	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Art_Shamsky	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Wendy_Bergen	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Jerry_Was_a_Race_Car_Driver	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/George_(dog)>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:In_Defense_of_Animals	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:No_Kill_Advocacy_Center	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:List_of_ThunderCats_characters	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Star_(dog)>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Elgin_James	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Sterling_Downey	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/United_States_v._Stevens>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:I_Am_Not_an_Animal	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Canine_Intervention	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Susie\u0027s_Law>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Mike_Trout	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Latrell_Sprewell	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Ontario_Liberal_Party	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:List_of_Tiny_Toon_Adventures_characters	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Staffordshire_Bull_Terrier	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Pet_policy_in_public_housing_estates_in_Hong_Kong	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Paper_Tiger_(2019_film)>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:All_Dogs_Go_to_Heaven_2	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:The_Babysitters_Coven	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Michael_D._Smigiel_Sr.>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Joseph_M._Getty>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Live_at_the_Odeon_Hammersmith_London	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Erhan_Deniz	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:American_Bully	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Traces_of_Death	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:List_of_Too_Cute_episodes	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/World\u0027s_Ugliest_Dog_Contest>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Landshark	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Enumclaw,_Washington>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Judge_Judy	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/1_Lincoln_Plaza>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Idiopathic_head_tremor_in_dogs	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Dogs_in_the_United_States	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:American_Pit_Bull_Terrier	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Kitbull	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:SparkShorts	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Roxy_Tour	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:List_of_fictional_dogs_in_live-action_film	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Nicholas_Todd_Sutton	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:List_of_most_popular_dog_breeds	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Jolene_Creighton	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:List_of_fatal_dog_attacks_in_the_United_Kingdom	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Rab_C._Nesbitt>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Will_Young	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:List_of_fictional_dogs_in_comics	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Recurring_features_in_Mad	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/A_Dog\u0027s_Way_Home>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Dog_bite	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Ming_of_Harlem	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Benjamin_F._Kramer>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Bob_Cameron_(politician)>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Patricio_Manuel	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Pepper\u0027s_Adventures_in_Time>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Pit_Bull	dbo:wikiPageWikiLink	dbr:Pit_bull ;
+	dbo:wikiPageRedirects	dbr:Pit_bull .
+<http://dbpedia.org/resource/Surry_County,_Virginia>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Moral_panic	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Greensboro,_North_Carolina>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:List_of_individual_dogs	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Jack_Russell_Terrier	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Billy_Manuel	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Americana_at_Brand	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Sari_Schorr	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Cruelty_to_animals	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/\u00BFQui\u00E9n_es_la_m\u00E1scara%3F_(Chilean_TV_series)>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Survivors_(novel_series)>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Land_of_the_Lost_(1991_TV_series)>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Eating_live_animals	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Ira_Glass	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Number_One_(Star_Trek)>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:The_Secret_Files_of_the_Spy_Dogs	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Star_Trek:_Picard_(season_1)>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Dog_(2022_film)>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/List_of_killings_by_law_enforcement_officers_in_the_United_States,_June_2017>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/As_Aventuras_de_Gui_&_Estopa>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Grenade_(song)>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Pet	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Harry_Leon_Wilson	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Tommy_Chang_(martial_artist)>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Jusuf_Prazina	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:DMX	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:German_Shepherd	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Kyle_Lowry	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Thomas_Gravesen	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Petit_(Portuguese_footballer)>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Cropping_(animal)>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Make_Something_Up	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Red_Paw_Emergency_Relief_Team	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Bryan_Bickell	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Kate_Scott_(sportscaster)>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/2016_murders_of_Des_Moines_police_officers>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Qyntel_Woods	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Pit	dbo:wikiPageWikiLink	dbr:Pit_bull ;
+	dbo:wikiPageDisambiguates	dbr:Pit_bull .
+dbr:Pictou_Academy	dbo:wikiPageWikiLink	dbr:Pit_bull ;
+	dbp:mascot	dbr:Pit_bull .
+dbr:Monk_Little_Dog	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Keystone_United	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Eyes_of_an_Angel	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Barbara_Sharief	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Straight_Outta_Lynwood	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Charles_Smith_(pathologist)>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Burt_Jenner	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Double_Live_(Butthole_Surfers_album)>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Pit_Bull_Terriers	dbo:wikiPageWikiLink	dbr:Pit_bull ;
+	dbo:wikiPageRedirects	dbr:Pit_bull .
+dbr:Pit_Bull_dog	dbo:wikiPageWikiLink	dbr:Pit_bull ;
+	dbo:wikiPageRedirects	dbr:Pit_bull .
+dbr:Pit_bulls	dbo:wikiPageWikiLink	dbr:Pit_bull ;
+	dbo:wikiPageRedirects	dbr:Pit_bull .
+dbr:Pitt_bull	dbo:wikiPageWikiLink	dbr:Pit_bull ;
+	dbo:wikiPageRedirects	dbr:Pit_bull .
+dbr:Pit_bull-type	dbo:wikiPageWikiLink	dbr:Pit_bull ;
+	dbo:wikiPageRedirects	dbr:Pit_bull .
+dbr:Pit_bull-type_dog	dbo:wikiPageWikiLink	dbr:Pit_bull ;
+	dbo:wikiPageRedirects	dbr:Pit_bull .
+<http://dbpedia.org/resource/Pit_bull\u2013type>	dbo:wikiPageWikiLink	dbr:Pit_bull ;
+	dbo:wikiPageRedirects	dbr:Pit_bull .
+<http://dbpedia.org/resource/Pit_bull\u2013type_dog>	dbo:wikiPageWikiLink	dbr:Pit_bull ;
+	dbo:wikiPageRedirects	dbr:Pit_bull .
+dbr:Pibble	dbo:wikiPageWikiLink	dbr:Pit_bull ;
+	dbo:wikiPageRedirects	dbr:Pit_bull .
+dbr:Pit-bull	dbo:wikiPageWikiLink	dbr:Pit_bull ;
+	dbo:wikiPageRedirects	dbr:Pit_bull .
+dbr:Pit_bull_terriers	dbo:wikiPageWikiLink	dbr:Pit_bull ;
+	dbo:wikiPageRedirects	dbr:Pit_bull .
+dbr:Pitbul	dbo:wikiPageWikiLink	dbr:Pit_bull ;
+	dbo:wikiPageRedirects	dbr:Pit_bull .
+dbr:Pitbull_aggresion	dbo:wikiPageWikiLink	dbr:Pit_bull ;
+	dbo:wikiPageRedirects	dbr:Pit_bull .
+dbr:Pitbull_dog	dbo:wikiPageWikiLink	dbr:Pit_bull ;
+	dbo:wikiPageRedirects	dbr:Pit_bull .
+dbr:Pitbulls	dbo:wikiPageWikiLink	dbr:Pit_bull ;
+	dbo:wikiPageRedirects	dbr:Pit_bull .
+dbr:Pittbull	dbo:wikiPageWikiLink	dbr:Pit_bull ;
+	dbo:wikiPageRedirects	dbr:Pit_bull .
+dbr:Bully_breeds	dbo:wikiPageWikiLink	dbr:Pit_bull ;
+	dbo:wikiPageRedirects	dbr:Pit_bull .
+dbr:Soccer_mom	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Once_Upon_a_Time_in_Hollywood_(novel)>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Brian_Frosh	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:People_for_the_Ethical_Treatment_of_Animals	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Nick_Galifianakis_(cartoonist)>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Recurring_Saturday_Night_Live_characters_and_sketches_introduced_2010\u201311>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Vladimir_Kulich	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Breed-specific_legislation	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Dogs_with_Jobs	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Pitbull_(disambiguation)>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Rebecca_Corry	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:David_Roma	dbo:wikiPageWikiLink	dbr:Pit_bull .
+@prefix ns30:	<http://dbpedia.org/resource/Pit_Bull:> .
+ns30:_The_Battle_over_an_American_Icon	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Ken_Dillen	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/T.U.F.F._Puppy>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/The_Smoke_(TV_series)>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Annie_Hornish	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/Norman_R._Stone_Jr.>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+<http://dbpedia.org/resource/June_&_Kopi>	dbo:wikiPageWikiLink	dbr:Pit_bull .
+dbr:Galunker	dbo:wikiPageWikiLink	dbr:Pit_bull .

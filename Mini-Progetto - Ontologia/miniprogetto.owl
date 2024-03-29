@@ -1,0 +1,980 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/lucad/ontologies/2023/9/animali/"
+     xml:base="http://www.semanticweb.org/lucad/ontologies/2023/9/animali/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:animali="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali">
+        <owl:imports rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47"/>
+        <rdfs:comment>La seguente ontologia è un&apos;ontologia sugli animali. È un sistema di organizzazione della conoscenza che modella il mondo animale. Include informazioni sul cibo, habitat, metodi di riproduzione, caratteristiche fisiche, versi e molto altro. Questo strumento è utilizzato per classificare, comprendere e studiare la vita sulla Terra.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#alimentazioneDi -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#alimentazioneDi">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#alimentazioneDi"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#ciNuotano -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#ciNuotano">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#nuotaIn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#comportamentoDi -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#comportamentoDi">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#haComportamento"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#comportamentoMigratorioDi -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#comportamentoMigratorioDi">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#comportamentoMigratorioDi"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#haComportamento -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#haComportamento">
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Animal"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Comportamento"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#haComportamentoMigratorio -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#haComportamentoMigratorio">
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Animal"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Migrazione"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#haHabitat -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#haHabitat">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#habitatDi"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Animal"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Biome"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#haRazza -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#haRazza">
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Animal"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonSpeciesNames"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#haStatoDiConservazione -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#haStatoDiConservazione">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#statoDiConservazioneDi"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Animal"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#haVerso -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#haVerso">
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Animal"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Verso"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#habitatDi -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#habitatDi">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#mangiatoDa -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#mangiatoDa">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#siCibaDi"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#metodoDiAlimentazione -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#metodoDiAlimentazione">
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Animal"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#CategoriaAlimentare"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#metodoDiRiproduzioneDi -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#metodoDiRiproduzioneDi">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#siRiproduce"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#nuotaIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#nuotaIn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Pesci"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Biome"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#periodoDiRiproduzionePer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#periodoDiRiproduzionePer">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#siRiproduceIn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#popolatoDa -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#popolatoDa">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#siTrovaIn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#razzaDi -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#razzaDi">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#razzaDi"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#siCibaDi -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#siCibaDi">
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Animal"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#BioticEntity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#siRicavaDa -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#siRicavaDa">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#vieneAllevatoPer"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#vieneCacciatoPer"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#siRiproduce -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#siRiproduce">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Animal"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#MetodiRiproduttivi"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#siRiproduceIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#siRiproduceIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Animal"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Stagione"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#siTrovaIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#siTrovaIn">
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Animal"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Continente"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#statoDiConservazioneDi -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#statoDiConservazioneDi"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#versoDi -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#versoDi">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#versoDi"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#vieneAllevatoPer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#vieneAllevatoPer">
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Animal"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#MateriaPrima"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#vieneCacciatoPer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#vieneCacciatoPer">
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Animal"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#MateriaPrima"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#durataDiVita -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#durataDiVita"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#haCaratteristicaFisica -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#haCaratteristicaFisica"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#numeroDiOssa -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#numeroDiOssa">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Vertebrati"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#numeroDiPiume -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#numeroDiPiume">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Uccelli"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dbpedia.org/ontology/Amphibian -->
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/Amphibian">
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Animal"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Vertebrati"/>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Animal -->
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/Animal">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Arachnid -->
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/Arachnid">
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Animal"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Artropodi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Insect -->
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/Insect">
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Animal"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Artropodi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Mollusca -->
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/Mollusca">
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q25326"/>
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Animal"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Invertebrati"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Anellidi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Anellidi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Invertebrati"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Artropodi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Artropodi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Invertebrati"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#CategoriaAlimentare -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#CategoriaAlimentare"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Celenterati -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Celenterati">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Invertebrati"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Comportamento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Comportamento"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Continente -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Continente"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Echinodermi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Echinodermi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Invertebrati"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Invertebrati -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Invertebrati">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Animal"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Vertebrati"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Irregolare -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Irregolare">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Migrazione"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Mammiferi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Mammiferi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Vertebrati"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#MateriaPrima -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#MateriaPrima"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#MetodiRiproduttivi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#MetodiRiproduttivi">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Stagione"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Migrazione -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Migrazione"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Pesci -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Pesci">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Vertebrati"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Poriferi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Poriferi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Invertebrati"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Rettili -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Rettili">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Vertebrati"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Riproduttiva -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Riproduttiva">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Migrazione"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Stagionale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Stagionale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Migrazione"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Stagione -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Stagione"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#StatoDiConservazione -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#StatoDiConservazione"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Uccelli -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Uccelli">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Vertebrati"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Verso -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Verso"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Vertebrati -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Vertebrati">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#lupoArtico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#lupoArtico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Mammiferi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali/Cnidari -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali/Cnidari">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Invertebrati"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali/Crostacei -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali/Crostacei">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Artropodi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali/Miriapodi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali/Miriapodi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Artropodi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali/Oviparo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali/Oviparo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#MetodiRiproduttivi"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali/Viviparo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali/Ovoviviparo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali/Ovoviviparo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#MetodiRiproduttivi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali/VermiPiatti -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali/VermiPiatti">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Invertebrati"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali/Viviparo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali/Viviparo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#MetodiRiproduttivi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Animal -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Animal">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#siCibaDi"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Plant"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#metodoDiAlimentazione"/>
+                                        <owl:hasValue rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#carnivoro"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:complementOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#siRiproduce"/>
+                        <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#MetodiRiproduttivi"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q25326 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q25326">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#SpeciesNames"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#africa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#africa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Continente"/>
+        <animali:popolatoDa rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#lupo"/>
+        <animali:popolatoDa rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#pecora"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#america -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#america">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Continente"/>
+        <animali:popolatoDa rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#lupo"/>
+        <animali:popolatoDa rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#pecora"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#asia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#asia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Continente"/>
+        <animali:popolatoDa rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#lupo"/>
+        <animali:popolatoDa rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#pecora"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#carnivoro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#carnivoro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#CategoriaAlimentare"/>
+        <animali:alimentazioneDi rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#coccodrillo"/>
+        <animali:alimentazioneDi rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#lupo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#coccodrillo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#coccodrillo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Rettili"/>
+        <animali:haVerso rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#trimbulare"/>
+        <animali:metodoDiAlimentazione rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#carnivoro"/>
+        <animali:siRiproduce rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#oviparo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#coleottero -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#coleottero">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Insect"/>
+        <animali:haComportamento rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#notturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#critico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#critico">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#StatoDiConservazione"/>
+        <animali:statoDiConservazioneDi rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#lupoArtico"/>
+        <rdfs:comment>a rischio estinzione</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#estate -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#estate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Stagione"/>
+        <animali:periodoDiRiproduzionePer rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#salmone"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#europa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#europa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Continente"/>
+        <animali:popolatoDa rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#lupo"/>
+        <animali:popolatoDa rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#pecora"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#gufo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#gufo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Uccelli"/>
+        <animali:haComportamento rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#notturno"/>
+        <animali:numeroDiPiume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2500</animali:numeroDiPiume>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#lana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#lana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#MateriaPrima"/>
+        <animali:siRicavaDa rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#pecora"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#lupo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#lupo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Mammiferi"/>
+        <animali:haRazza rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#lupoArtico"/>
+        <animali:haRazza rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#lupoGrigio"/>
+        <animali:haRazza rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#lupoIberico"/>
+        <animali:haRazza rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#lupoMessicano"/>
+        <animali:haVerso rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#ululare"/>
+        <animali:metodoDiAlimentazione rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#carnivoro"/>
+        <animali:siCibaDi rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#pecora"/>
+        <animali:siRiproduce rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#viviparo"/>
+        <animali:siTrovaIn rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#africa"/>
+        <animali:siTrovaIn rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#america"/>
+        <animali:siTrovaIn rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#asia"/>
+        <animali:siTrovaIn rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#europa"/>
+        <animali:numeroDiOssa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">230</animali:numeroDiOssa>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#lupoArtico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#lupoArtico">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#lupoArtico"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonSpeciesNames"/>
+        <animali:haStatoDiConservazione rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#critico"/>
+        <animali:razzaDi rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#lupo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#lupoGrigio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#lupoGrigio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonSpeciesNames"/>
+        <animali:razzaDi rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#lupo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#lupoIberico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#lupoIberico">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonSpeciesNames"/>
+        <animali:razzaDi rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#lupo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#lupoMessicano -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#lupoMessicano">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#CommonSpeciesNames"/>
+        <animali:razzaDi rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#lupo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#notturno -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#notturno">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Comportamento"/>
+        <animali:comportamentoDi rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#coleottero"/>
+        <animali:comportamentoDi rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#gufo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#oceania -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#oceania">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Continente"/>
+        <animali:popolatoDa rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#pecora"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#oceanoPacifico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#oceanoPacifico">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Biome"/>
+        <animali:ciNuotano rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#salmone"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#oviparo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#oviparo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali/Oviparo"/>
+        <animali:metodoDiRiproduzioneDi rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#coccodrillo"/>
+        <rdfs:comment>L&apos;oviparità è un tipo di riproduzione, in cui le femmine depongono uova fecondate la cui crescita embrionale termina al di fuori dell&apos;organismo materno.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#pecora -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#pecora">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Mammiferi"/>
+        <animali:siRiproduce rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#viviparo"/>
+        <animali:siTrovaIn rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#africa"/>
+        <animali:siTrovaIn rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#america"/>
+        <animali:siTrovaIn rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#asia"/>
+        <animali:siTrovaIn rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#europa"/>
+        <animali:siTrovaIn rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#oceania"/>
+        <animali:vieneAllevatoPer rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#lana"/>
+        <animali:numeroDiOssa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</animali:numeroDiOssa>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#salmone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#salmone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Pesci"/>
+        <animali:nuotaIn rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#oceanoPacifico"/>
+        <animali:siRiproduceIn rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#estate"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#trimbulare -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#trimbulare">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Verso"/>
+        <animali:versoDi rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#coccodrillo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#ululare -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#ululare">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Verso"/>
+        <animali:versoDi rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#lupo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lucad/ontologies/2023/9/animali#viviparo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#viviparo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali/Viviparo"/>
+        <animali:metodoDiRiproduzioneDi rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#lupo"/>
+        <animali:metodoDiRiproduzioneDi rdf:resource="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#pecora"/>
+        <rdfs:comment>La viviparità è un tipo di riproduzione in cui lo sviluppo embrionale avviene all&apos;interno dell&apos;organismo materno. Il termine può riferirsi sia a piante sia ad animali</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://dbpedia.org/ontology/Amphibian"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Mammiferi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Rettili"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Uccelli"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47#Person"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://dbpedia.org/ontology/Arachnid"/>
+            <rdf:Description rdf:about="http://dbpedia.org/ontology/Insect"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali/Crostacei"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali/Miriapodi"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://dbpedia.org/ontology/Mollusca"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Anellidi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Artropodi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Celenterati"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Echinodermi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Poriferi"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://dbpedia.org/ontology/Mollusca"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Anellidi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Artropodi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Celenterati"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Echinodermi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Poriferi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali/Cnidari"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali/VermiPiatti"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Irregolare"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Riproduttiva"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali#Stagionale"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali/Oviparo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali/Ovoviviparo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lucad/ontologies/2023/9/animali/Viviparo"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
