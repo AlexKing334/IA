@@ -1,5 +1,4 @@
 # Cognitive Computing and Artificial Intelligence
-###### _Autori: Luca Dimarco - Antonino Salemi - Dario Lomonaco_
 ###### _Anno di realizzazione: 2023_
 
 ## Cartelle
